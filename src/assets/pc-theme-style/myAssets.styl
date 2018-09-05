@@ -1,0 +1,147 @@
+.myAssets-box
+    width  100%
+    margin-top 88px
+    .main 
+        width 80%
+        margin 0 auto 
+        .assetList
+            .assetTitle
+                i 
+                    font-style normal 
+                padding-top 10px
+                position relative
+                margin-bottom 16px 
+                .asset-search
+                    position absolute 
+                    right 0
+                    top 0
+                    width 260px
+                .field-search
+                    border 1px solid $border-color-1
+                    padding 2px 16px
+                    background #fff
+                    .q-if
+                        margin 0
+                        padding 0
+                    .q-if:before
+                            opacity 0
+                    .q-if:after
+                        opacity 0
+                    .q-search
+                        border 1px solid $border-color-1
+                        padding 6px 14px
+                        margin 0
+                        &.q-if:before
+                            opacity 0
+                        &.q-if:after
+                            opacity 0
+                        .q-if-control-before
+                            display none
+        .assetItem
+            border 1px solid $border-color-1
+            margin-bottom 16px
+            background #fff
+            .p-around--small
+                padding 16px
+            .m-left--small 
+                margin-left 16px
+            .m-right--small 
+                margin-right 16px
+            
+            .level2
+                margin-bottom 16px
+            &>div
+                &>div
+                    border-right 1px solid $border-color-1
+                    font-size 12px
+
+                    &:last-child
+                    border 0 
+                    
+                    .title
+                        font-weight bold
+                        font-size 14px
+                        margin 0 0 8px 0
+                        overflow hidden
+                        text-overflow ellipsis
+                        white-space nowrap
+                    .detail
+                        margin-bottom 8px
+                        overflow hidden
+                        text-overflow ellipsis
+                        white-space nowrap
+                    .price
+                        color $font-color-3
+                        overflow hidden
+                        text-overflow ellipsis
+                        white-space nowrap
+                    .icon-dot
+                        display inline-block
+                        width 10px
+                        height 10px
+                        border-radius 50%
+                    .field-view
+                        label 
+                            color $font-color-3
+                            margin-bottom 5px
+                        .field-view-con
+                            em
+                                font-style normal 
+                                font-size 22px
+                                margin-right 5px
+                            &.red
+                                color $negative
+                    .title-3
+                        color $font-color-3
+                        //font-weight bold
+                        font-size 14px
+                        margin-bottom 5px
+                        overflow hidden
+                        text-overflow ellipsis
+                        white-space nowrap
+                    .title-2
+                       margin-bottom 8px
+                    .align-center
+                        text-align center
+                    .position-center
+                        position relative
+                        top 50%
+                        transform translateY(-50%)
+                    .heightFull
+                    //height 100%
+                       height 95px
+            &.expired
+                &>div
+                  color $font-color-3 
+        .asset-page
+            padding 8px 0 24px 0
+            text-align center
+            &>div
+                margin 0 auto
+                .icon-action
+                    display inline-block
+                    width 32px
+                    height 32px
+                    background $all-color-1
+                    text-align center
+                    line-height 25px
+                    color $all-color-2
+                    margin 0 12px
+                    cursor pointer
+                    border-radius 50%
+                    font-size 30px
+                    position relative
+                    top 2px
+                    &.disable
+                        background $all-color-3
+                input
+                    width 40px
+                    padding 4px 10px
+                    text-align center
+            
+
+                       
+
+                      
+                      
+

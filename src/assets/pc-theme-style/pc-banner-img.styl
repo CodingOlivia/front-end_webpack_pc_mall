@@ -1,0 +1,192 @@
+.iwinad-banner-img-popup
+  width 945px
+  border 1px solid #ccc
+  border-radius 8px
+  position:fixed
+  left 50%
+  top 50%
+  transform translate(-50%,-50%)
+  background-color #fff
+  box-shadow 0px 0px 30px #ccc
+  .popup-head
+    height 54px
+    line-height 54px
+    background-color #fff
+    border-top-left-radius 8px
+    border-top-right-radius 8px
+    display flex
+    justify-content space-between
+    padding 0 30px
+    border-bottom 1px solid #ccc
+    align-items center
+    background-color #038cd6
+    .title
+      color #fff
+      font-size 16px
+      font-family Roboto-bold
+    .close-icon
+      display inline-block
+      height 16px
+      width 16px
+      background url("~statics/images/contentCarousel/icon-pop-close.png") center center no-repeat
+      cursor pointer
+  .popup-content
+    background-color #fff
+    padding 16px 30px 10px 30px
+    font-size 14px
+    color #666
+    border-bottom-left-radius 8px
+    border-bottom-right-radius 8px
+    display flex
+    justify-content: space-between;
+    .list-box
+      display flex
+      flex-wrap wrap
+      height 368px
+      overflow-y auto
+    .add-item
+      display flex
+      justify-content center
+      align-items center
+      .add-wrap
+        cursor pointer
+        .img-add
+          height 26px
+          width 26px
+          margin 0 auto
+          background url("~statics/images/contentCarousel/plus-img.png") center center no-repeat
+        .text-desc
+          font-size 14px 
+          color #999
+          margin-top 10px
+    .list-item
+      width 160px
+      height 160px
+      border 1px solid #ccc
+      position relative
+      border-radius 6px
+      box-sizing border-box
+      margin 0 16px 16px 0 
+      &:hover
+        .del-wrap
+          display block
+      img
+        width 100%
+        height 100%
+      .index-sign
+        display inline-block
+        width 24px
+        height 24px
+        border 1px solid #ccc
+        border-radius 50%
+        position absolute
+        left 10px
+        top 10px
+        display flex
+        justify-content center
+        align-items center
+        background-color #fff
+      .del-wrap
+        display none
+        height 30px
+        border-bottom-left-radius 6px
+        border-bottom-right-radius 6px
+        padding-right 6px
+        background-color #ccc
+        position absolute
+        left 0 
+        bottom 0
+        width 100%
+        text-align right
+        box-sizing border-box!important
+        .del-icon
+          display inline-block
+          height 16px
+          width 16px
+          margin-top 7px
+          background url("~statics/images/contentCarousel/u56.png") center center no-repeat
+          cursor pointer
+    .content-right
+      padding 20px
+      border 1px solid #ccc
+      box-shadow 2px 2px 5px rgba(204,204,204,0.34)
+      width 298px
+      .panel-title
+        font-size 18px
+        font-family Roboto-Bold
+        color #333
+      .layout-title
+        font-size 14px
+        font-family Roboto-Regular
+        color #17A1E5
+        margin-top 16px
+      .link-func
+        display flex
+        justify-content space-between
+        align-items center
+        margin-top 16px
+        .link-text
+          color #17A1E5
+          font-size 14px
+          font-family Roboto-Regular
+        .link-icon
+          display inline-block
+          height 16px
+          width 16px
+          background url("~statics/images/contentCarousel/u51.png") center center no-repeat
+          cursor pointer
+      .swiper-box
+        margin-top 10px
+        .img-wrap
+          height 140px
+          width 100%
+          background-color #ccc
+          display flex
+          items-align center
+          justify-content center
+          img
+            width 100%
+            height 100%
+        .prev-new-d
+            height 36px
+            width 36px
+            background-image none
+            background url("~statics/images/contentCarousel/icon_left.png") center center no-repeat
+            background-size 100% 100%
+        .next-new-d
+            height 36px
+            width 36px
+            background-image none
+            background url("~statics/images/contentCarousel/icon_right.png") center center no-repeat
+            background-size 100% 100%
+      .link-result
+        margin-top 10px
+        word-break break-word
+  .popup-foot
+    padding 10px 30px 15px
+    text-align right
+    .btn-common
+      position relative
+      padding 7px 15px
+      display inline-block
+      line-height 1
+      cursor pointer
+      white-space nowrap
+      border 1px solid #dcdfe6
+      color #606266
+      text-align center
+      box-sizing border-box
+      outline 0
+      margin 0
+      transition .1s
+      font-weight 500
+      padding 12px 20px
+      font-size 14px
+      border-radius 4px
+    .btn-cancel
+      background linear-gradient(180deg,#fff 5%,#f1f3f7)
+    .btn-comfirm 
+      color #fff
+      border-color #409eff
+      background linear-gradient(180deg,#2ca0f7 5%,#1585d8)
+      margin-left 10px

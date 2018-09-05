@@ -1,0 +1,459 @@
+.login-page
+    position relative
+    .l-header
+        background-color #fff
+        position fixed
+        left 0
+        top 0
+        width 100%
+        box-shadow 0px 0px 10px 6px rgba(0,0,0,.1)
+        .logo-text
+            display inline-block
+            position absolute
+            left 13.8%
+            top 50%
+            transform translateY(-50%)
+            line-height 1.5
+            height 30px
+            font-size 24px 
+            color #333
+            font-family 'KhmerMN'
+            text-transform uppercase
+            cursor pointer
+            letter-spacing 0px
+    .l-content
+        height 100vh
+        width 100%
+        box-size border-box
+        display flex
+        justify-content center
+        align-items center
+        .bar-right 
+            top 20% !important
+            position absolute
+            right 1.875rem
+            -webkit-transform translateY(-50%)
+            transform translateY(-50%)
+            z-index 500
+            .toolbar-icon
+                background-color #fff
+                display block
+                width 3.125rem
+                height 3.215rem
+                border-radius 50%
+                box-shadow 0 0 5px 1px #ddd   
+        .l-advertising
+            background-color #fff
+            margin-right 20px
+            a
+                display inline-block
+                width 100%
+                height 100%
+                cursor pointer
+            img
+                width 100%
+                height 100%
+                border-radius 3px
+                box-shadow 0px 0px 7px 2px rgba(0,0,0,.1) 
+        .l-enter-view
+            background-color #fff
+            box-shadow 0px 0px 7px 2px rgba(0,0,0,.1) 
+            border-radius 3px
+            .head-box
+                .l-title
+                    color #252525
+                    letter-spacing 0
+                    font-family HelveticaNeue
+                    text-transform uppercase
+                    font-weight bold
+            .content-box
+                position relative
+                .hint-img
+                    position: absolute
+                    left 0
+                    top -50px
+                    width 100%
+                    margin-bottom 10px
+                    height auto
+                    .msg-error
+                        position relative
+                        background #ffebeb
+                        color #e4393c
+                        border 1px solid #faccc6
+                        padding 3px 10px 3px 30px
+                        height auto
+                        text-align left
+                        font-size 14px
+                        b
+                            position absolute
+                            top 50%
+                            left 10px
+                            display block
+                            margin-top -6px
+                            width 13px
+                            height 13px
+                            overflow hidden    
+                        span
+                            letter-spacing 0px                    
+                .input-group
+                    text-align left
+                    .input-dom
+                        position relative
+                        margin-bottom 16px
+                    .code-input-wrap
+                        display flex
+                    .code-wrap
+                        min-width 100px
+                        border 1px solid #b2b2b2
+                        border-left none
+                        background-color #fff
+                    .code-img
+                        height 100%
+                        width 80px
+                        cursor pointer      
+                    .close
+                        position absolute
+                        right 10px
+                        top 50%
+                        transform translateY(-50%)
+                        display inline-block
+                        width 27px
+                        height 27px
+                        background-size 100% 100%
+
+                    input
+                        width 100%
+                        color #b2b2b2
+                        border 1px solid #b2b2b2
+                        &.focus
+                            border 1px solid #666
+                            color #333
+                    .code
+                        float left
+
+                    .error
+                        border 1px solid #e50017!important
+                        color #e50017!important
+
+                    .font-error
+                        position absolute
+                        color #e50017!important
+                        font-size 14px
+                        display inline-block
+                .l-btn     
+                    width 100%
+                    border-radius 32px
+                    border none
+                    text-transform uppercase
+                    background #252525
+                    outline none
+                    color #fff
+                    cursor pointer
+                .login-contain-inner
+                    display flex
+                    justify-content space-between
+                    align-items center
+                    a
+                        line-height 14px
+                        &:first-child
+                            color #6abcfc
+                            letter-spacing 1px
+                            cursor pointer
+                            font-family HelveticaNeue
+                        &:last-child
+                            color #0c0c0c
+                            font-weight bold
+                            letter-spacing 1px
+                        .rightIcon
+                            width 7px
+                            height 11px
+                            margin-left 4px
+                            display inline-block
+                            vertical-align middle
+                            background-size 100% 100%
+                .login-contain-footer
+                    text-align center
+                    .warper
+                        display flex
+                        align-items center
+                        .line
+                            height 1px
+                            flex 1
+                            border-bottom 1px solid #e6e6e6
+                        .title
+                            color #666
+                            line-height 14px
+                            height 14px
+                            text-align center
+                            font-family HelveticaNeue
+                            padding 0 6.5px
+                            background-color #fff
+                    .list-img
+                        display inline-block
+                        width 44px
+                        height 33px
+                        cursor pointer 
+                        img
+                            max-width 100%
+                            max-height 100%        
+    .l-footer
+        display flex
+        justify-content center
+        position absolute
+        left 0
+        bottom 0
+        width 100%
+        background-color #fff
+        // min-width 1280px
+        .copyright
+            display flex
+            justify-content space-between
+            align-items center
+            width 1256px
+            .copyright-wrap
+                background-color #fff
+                display flex     
+                align-items center
+                span
+                    color #333
+                    display inline-block
+                    font-size 12px
+                    padding 0 10px
+                    position relative
+                    white-space nowrap
+                    &:not(:first-child):before
+                        content "|"
+                        display inline-block
+                        height 10px
+                        width 2px
+                        position absolute
+                        left 0
+                        top 0
+            .lan-select-wrap
+                .w-common-select
+                    position relative
+                    cursor pointer
+                    .select-default2
+                        height 24px
+                        line-height 24px
+                        font-size 12px
+                        min-width 80px
+                        padding-right 8px
+                        padding-left 10px
+                        box-sizing border-box
+                        border 1px solid #b2b2b2
+                        cursor pointer
+                        text-align center
+                        display flex
+                        position relative
+                        .text-val
+                            padding 0 
+                            padding-right 15px
+                            display inline-flex
+                            align-items center
+                            justify-content center
+                            flex 1
+                        .select-img
+                            content ""
+                            display inline-block
+                            height 7px
+                            width 12px
+                            position absolute
+                            right 4px
+                            top 50%
+                            transform translateY(-50%)
+                    .option-box
+                        position absolute 
+                        left 0
+                        top -70px
+                        cursor pointer
+                        width 100%
+                        margin 0
+                        padding 0
+                        background-color #fff
+                        border 1px solid #777
+                        max-height 210px
+                        overflow-y auto
+                        z-index 1000
+                        .option-item
+                            height 30px
+                            line-height 30px
+                            color #333
+                            font-family Roboto-Regular
+                            font-size 14px
+                            padding-left 20px
+                            text-align center 
+                            padding-left 0 
+                            &:not(:last-child)
+                                border-bottom 1px solid #f1f4f8
+                            &:hover
+                                background-color #f1f4f8
+                                color #333
+    .dialog
+        position absolute
+        top 12%
+        right 50%
+        width 306px
+        border-radius 6px
+        box-shadow 0px 1px 30px 3px #ccc
+        .dialog-header
+            height 60px
+            padding 0 16px
+            display flex
+            justify-content space-between
+            align-items center
+            background-color rgb(25,158,216)
+            border-radius 6px
+            cursor move
+            .dialog-title
+                color #fff
+                font-size 16px
+            .dialog-close
+                display inline-block
+                height 16px
+                width 16px
+                cursor pointer
+        .dialog-content
+            background-color #fff
+            padding 16px
+            .dialog-items
+                .sen-title
+                    display flex
+                    justify-content space-between
+                    align-items center
+                    padding 16px 0
+                    position relative
+                    .title-text
+                        font-size 14px
+                        color #252525
+                    .icon
+                        display inline-block
+                        height 16px
+                        width 16px
+                        cursor pointer
+                    .color-picker-wrap
+                        position absolute
+                        height 200px
+                        background-color #fff
+                        right -247px
+                        top 16PX
+                .list-box
+                    margin 0
+                    padding 0
+                    overflow hidden
+                    .list-item
+                        list-style none
+                        margin 0
+                        padding 0
+                        float left
+                        height 25px
+                        width 54px
+                        box-sizing border-box
+                        &:hover
+                            border 1px solid #e5e5e5
+                .adimg-wrap
+                    width 152px
+                    height 138px
+                    display flex
+                    justify-content space-between
+                    align-items center
+                    img
+                        width 100%
+                        height 100%
+        .dialog-footer
+            text-align right
+            padding 16px
+            background-color #fff
+            border-bottom-left-radius 6px
+            border-bottom-right-radius 6px
+
+
+@media screen and (min-width:1560px) 
+    .login-page
+        .l-header
+            height 74px
+        .l-content
+            .l-advertising
+                width 726px
+                height 618px
+            .l-enter-view
+                width  510px
+                height 618px
+                padding 25px 40px
+                .head-box
+                    margin-bottom 64px
+                    .l-title
+                        font-size 24px
+                .content-box
+                    .hint-img    
+                        .msg-error
+                            line-height 15px
+                .input-group
+                    .code-wrap
+                        height  56px
+                        padding 12px 10px
+                    input
+                        height 56px
+                        line-height 32px
+                        padding 12px 20px
+                        padding 6px 15px
+                        font-size 16px
+                .l-btn
+                    height 64px
+                    margin-top 24px
+                    margin-bottom 30px
+                .login-contain-inner 
+                    margin-bottom 40px
+                    padding 0px 20px
+                    a
+                        font-size 16px
+                .list-img
+                    margin-top 30px
+        .l-footer
+            .copyright-wrap
+                height 76px
+        
+@media screen and (max-width:1560px) 
+    .login-page
+        .l-header
+            height 56px
+        .l-content
+            .l-advertising
+                width 545px
+                height 464px
+            .l-enter-view
+                width  383px
+                height 464px
+                padding 16px 30px
+                .head-box
+                    margin-bottom 56px
+                    .l-title
+                        font-size 18px
+                .content-box
+                    .hint-img    
+                        .msg-error
+                            line-height 12px
+                .input-group
+                    .code-wrap
+                        height  42px
+                        padding 6px  7px
+                    input
+                        height 42px
+                        padding 6px 15px
+                        font-size 14px
+                .l-btn
+                    height 48px
+                    margin-top 8px
+                    margin-bottom 16px
+                .login-contain-inner 
+                    margin-bottom 24px
+                    padding 0px 16px
+                    a
+                        font-size 14px
+                .list-img
+                    margin-top 24px
+        .l-footer
+            .copyright-wrap
+                height 57px
+            .copyright
+                width 948px

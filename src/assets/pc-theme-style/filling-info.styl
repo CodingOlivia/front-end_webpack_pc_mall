@@ -1,0 +1,329 @@
+.fillingBox
+  width: 100%
+  margin-top 88px
+  font-family HelveticaNeue !important
+  padding-bottom 154px
+  background #fff
+  .main
+    width: 82%
+    margin 0 auto
+    .deliveryDetails
+      width: 100%
+      .title
+        h3
+          margin: 0
+          font-size: 24px
+          font-weight: bold
+          width 90%
+        span
+          margin: 0
+          font-size: 14px
+          line-height: 4
+          color: $all-color-3
+      .contain
+        width: 100%
+        padding: 0 16px
+        border: 1px solid $border-color-1 
+        margin-bottom 16px
+        .panel
+          .form-warning
+            margin 24px 0 5px 0
+            span
+              padding 2px 8px
+              background #fc2f75
+              color #fff
+              display inline-block
+              label
+                display inline-block
+              i
+                width 16px
+                height 16px
+                margin-right 8px
+                position relative
+                top 2px
+                display inline-block
+                background url("~statics/icon-warning-small.png") no-repeat center
+          .panel-title
+            margin: 0
+            font-size: calc(14/1920*100vw)
+            line-height: 4
+            border-bottom: 1px solid $border-color-1 
+            color $all-color-3
+            width 100%
+            margin-bottom 16px
+            position relative
+            .panel-edit
+               width 20px
+               height 20px
+               background url("~statics/icon-edit.png") no-repeat center
+               right 16px
+               top 16px
+               cursor pointer
+            .title-absolute-right
+               position absolute
+               right 16px
+               top 0
+               color $font-color-3
+               font-weight normal
+          .field-view
+              padding 10px 16px 5px 16px
+              line-height 16px
+              margin-bottom 10px
+              label
+                color $font-color-5 
+                font-size 14px
+                display block
+                line-height 24px
+                em
+                  font-style normal
+                  color $negative
+                  margin-left 2px
+                  vertical-align middle
+              .field-detail
+                 font-size 16px
+                 line-height 18px
+                 min-height 24px
+          .m-right--small 
+              margin-right 16px
+          .m-bottom--small 
+              margin-bottom 16px
+          .field-select
+              position relative
+              margin-top 0
+              margin-bottom 18px
+              background #fff
+              label
+                color $font-color-5 
+                font-size 14px 
+                position absolute 
+                top 14px
+                left 16px
+                em
+                  font-style normal 
+                  color $negative 
+                  margin-right 3px
+                  display inline-block
+                  vertical-align middle
+                  margin-left 2px
+              .field-view-select
+                border 1px solid $border-color-1
+                padding 30px 16px 8px 16px
+                .q-if-control
+                  position relative
+                  top -8px
+                  background url('~statics/360-view-design/arrow-down.png') no-repeat center
+                  font-size 0
+                  width 20px
+                  height 20px
+              .q-if:after
+                opacity 0
+              .q-if:before
+                opacity 0
+              .q-if-label
+                color $all-color-3
+              .q-if-focused
+                .q-if-label
+                    color $all-color-3
+              &.q-field-with-error 
+                margin-bottom 0
+                .q-field-bottom   
+                    min-height 18px
+                    line-height 14px
+                    padding 2px
+          .field-inp
+            position relative
+            margin-bottom 18px
+            margin-top 0
+           
+            label
+              color $font-color-5 
+              font-size 14px 
+              position absolute 
+              top 14px
+              left 16px
+              em
+                font-style normal 
+                color $negative 
+                margin-right 3px
+                display inline-block
+                vertical-align middle
+                margin-left 2px
+            .field-view-inp
+              border 1px solid $border-color-1
+              padding 30px 16px 8px 16px
+              .q-if-control
+                  position relative
+                  top -8px
+              &.q-datetime-input
+                 .q-if-control
+                     font-size 0
+                     width 18px
+                     height 18px
+                     display inline-block
+                     background url('~statics/icon-date.png') no-repeat center
+            .q-if:after
+              opacity 0
+            .q-if:before
+              opacity 0
+            .q-if-label
+              color $all-color-3
+            .q-if-focused
+              .q-if-label
+                  color $all-color-3
+            
+            &.q-field-with-error 
+                  margin-bottom 0
+                  .q-field-bottom   
+                      min-height 18px
+                      line-height 14px
+                      padding 2px
+          .supplement
+              .field-inp
+                 &.q-field-with-error
+                    margin-bottom 18px
+                    .field-view-inp
+                        border 1px solid #fc2f75
+                    .q-field-bottom
+                        display none
+              .field-select
+                 &.q-field-with-error
+                    margin-bottom 18px
+                    .field-view-select
+                        border 1px solid #fc2f75
+                    .q-field-bottom
+                        display none
+          .invoice
+              .q-touch
+                margin -10px 0 0 10px
+              .q-toggle-handle
+                width 28px
+                height 28px
+                background-color $all-color-2
+                border 1px solid $border-color-1 
+              .q-toggle-base
+                width 50px
+                height 30px
+                opacity 1
+                border 2px solid $border-color-1 
+                margin-top -6px
+                &.active
+                  border 2px solid #68daa9
+              .q-option-inner
+                &.active
+                  color $background-color-4
+          .radio-group-default
+              margin 16px 0
+              .radio-option
+                  margin-right 32px
+                  cursor pointer
+                  
+                  .radio-option-icon
+                      width 32px
+                      height 32px
+                      display inline-block
+                      text-align center
+                      font-size 22px
+                      border-radius 50%
+                      border 1px solid $border-color-1
+                      vertical-align middle
+                      margin-right 16px
+                      i
+                        display none
+                  label
+                      color $font-color-5
+                      font-size 18px
+                  &.active
+                     .radio-option-icon
+                         background $all-color-1
+                         color $all-color-2
+                         border 1px solid $all-color-1
+                         i 
+                           display inline
+          .panel-action-footer
+             text-align right
+             padding 16px 0
+             .btn
+               height 32px
+               min-width 112px
+               text-align center
+               line-height 30px
+               border 1px solid $border-color-1
+               border-radius 32px
+               display inline-block
+               font-size 14px
+               margin-left 12px
+               cursor pointer
+               &.actively
+                  background $all-color-1 
+                  color $all-color-2
+  .filling-footer
+    background $all-color-2
+    color $all-color-1
+    display flex
+    justify-content flex-end
+    align-items center
+    position fixed
+    bottom 0px
+    left 9%
+    font-family HelveticaNeue !important
+    &.q-toolbar
+      background-color #fff
+      div
+        background-color #fff
+    .filling-footer
+      width 82%
+      //margin-bottom calc(50/1920*100vw)
+      .align-right
+        text-align right
+      .agree
+        color $font-color-5
+        font-size 16px
+        line-height 6
+        font-weight 600
+        margin-right 50px
+        span
+          color $font-color-4
+      .btn
+        width calc(348/1920*100vw)
+        height calc(64/1920*100vw)
+        min-width 240px
+        min-height 56px
+        border-radius: 50px
+        background-color $all-color-1
+        color $all-color-2
+        font-size 24px
+        text-align center
+        text-transform uppercase
+        display inline-flex
+        justify-content center
+        align-items center
+        cursor pointer
+        &.disable
+            background-color $border-color-1
+            color $all-color-2
+      .filling-footer-btn
+        background #f9f9f9
+        font-size 14px
+        border: 1px solid #b2b2b2;
+        margin 0 8px
+        display flex
+        justify-content center
+        align-items center
+        width 32px
+        height 32px
+        border-radius 50px
+        font-size 22px
+        cursor pointer
+        color #f9f9f9
+        &.active
+            background $all-color-1
+            opacity 1
+            color $all-color-2
+.q-popover
+  border 1px solid $border-color-1!important
+  .q-list 
+     .q-item-label
+        color #b2b2b2
+        font-weight normal
+        &:hover
+           color #0c0c0c!important

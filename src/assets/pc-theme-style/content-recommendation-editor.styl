@@ -1,0 +1,879 @@
+.display-wrap-iwinad
+	padding 0
+	.ql-bubble .ql-tooltip
+		background #fff
+	.display-box-panel
+		position relative
+		height 95vh
+		border 1px solid #ccc
+		border-radius 4px
+		background-color #f0f0f0
+		.toolbar-right
+			position absolute
+			right 1.875rem
+			top 50%
+			transform translateY(-50%)
+			.toolbar-icon
+				display block
+				width 3.125rem
+				height 3.215rem
+				border-radius 50%
+				box-shadow 0 0 5px 1px #ddd
+				&:not(:first-child)
+					margin-top 10px
+			.t-grid
+				background #fff url('~statics/images/contentCarousel/grid-icon.png') center no-repeat
+				background-size 1.25rem 1.25rem
+			.t-save
+				background #fff url('~statics/images/contentCarousel/icon-save.png') center no-repeat
+				background-size 1.25rem 1.25rem
+			.t-template
+				background #fff url('~statics/images/contentCarousel/template-icon.png') center no-repeat
+				background-size 1.25rem 1.25rem
+			.t-dom
+				background #fff url('~statics/images/contentCarousel/dom-icon.png') center no-repeat
+				background-size 1.25rem 1.25rem
+			.t-setting
+				background #fff url('~statics/images/contentCarousel/setting-icon.png') center no-repeat
+				background-size 1.25rem 1.25rem
+			.t-undo
+				background #fff url('~statics/images/contentCarousel/undo-icon.png') center no-repeat
+				background-size 1.25rem 1.25rem
+			.t-redo
+				background #fff url('~statics/images/contentCarousel/redo-icon.png') center no-repeat
+				background-size 1.25rem 1.25rem
+		.display-box
+			height 100%
+			&>i:not(:first-child)
+				border-left 1px dashed #ccc
+			.show-box:hover
+				box-shadow 0 5px 15px 1px #999
+				transition all ease 0.3s
+			.selected-dom
+				border 2px solid #00a4fc !important
+				&>.move-top
+					position absolute
+					display block
+					width 30px
+					height 30px
+					top -16px
+					left 30px
+					background url('~statics/images/contentCarousel/replace-top.png') center no-repeat
+				&>.move-left
+					position absolute
+					display block
+					width 30px
+					height 30px
+					left -16px
+					top 30px
+					background url('~statics/images/contentCarousel/replace-left.png') center no-repeat
+				&>.move-right
+					position absolute
+					display block
+					right -5px
+					top 50%
+					margin-top -10px
+					width 10px
+					height 20px
+					background-color #fff
+					border 1px solid #ccc
+					cursor w-resize
+				&>.move-bottom
+					position absolute
+					display block
+					bottom -5px
+					left 50%
+					margin-left -10px
+					width 20px
+					height 10px
+					background-color #fff
+					border 1px solid #ccc
+					cursor s-resize
+				&>.dom-operate
+					position absolute
+					right 0
+					top -30px
+					a{
+						display inline-block
+						width 26px
+						height 26px
+						border 1px solid #cccccc
+					}
+					.setting
+						background #fff url('~statics/images/contentCarousel/setting-icon.png') center no-repeat
+						background-size 15px 15px
+					.add-file
+						background #fff url('~statics/images/contentCarousel/add-dom.png') center no-repeat
+						background-size 16px 16px
+					.delete
+						background #fff url('~statics/images/contentCarousel/del.png') center no-repeat
+						background-size 10px 10px
+					.copy-file
+						background #fff url('~statics/images/contentCarousel/copy-dom.png') center no-repeat
+						background-size 16px 16px
+				.add-offer
+					position absolute
+					display inline-block
+					width 110px
+					height 20px
+					background-color #00a4fc
+					color #fff
+					line-height 20px
+					text-align center
+					left 0
+					top -22px
+					font-family Roboto-Regular
+					font-size 12px
+					cursor pointer
+	.editor-panel
+		position absolute
+		width 30rem
+		top 50%
+		left 50%
+		transform translate(-50%, -50%)
+		z-index 999
+		.toolbar-left
+			position absolute
+			left -2.857rem
+			top 3.571rem
+			.toolbar-icon
+				display block
+				width 2.857rem
+				height 2.857rem
+				border 1px solid #ccc
+				border-right 0
+				border-top-left-radius 4px
+				border-bottom-left-radius 4px
+				&:not(:first-child)
+					margin-top 10px
+			.t-grid
+				background #fff url('~statics/images/contentCarousel/grid-icon.png') center no-repeat
+				background-size 1.25rem 1.25rem
+			.t-template
+				background #fff url('~statics/images/contentCarousel/template-icon.png') center no-repeat
+				background-size 1.25rem 1.25rem
+			.t-dom
+				background #fff url('~statics/images/contentCarousel/dom-icon.png') center no-repeat
+				background-size 1.25rem 1.25rem
+			.t-setting
+				background #fff url('~statics/images/contentCarousel/setting-icon.png') center no-repeat
+				background-size 1.25rem 1.25rem
+			.t-undo
+				background #fff url('~statics/images/contentCarousel/undo-icon.png') center no-repeat
+				background-size 1.25rem 1.25rem
+			.t-redo
+				background #fff url('~statics/images/contentCarousel/redo-icon.png') center no-repeat
+				background-size 1.25rem 1.25rem
+		.panel-head
+			position relative
+			padding-left 1.25rem
+			height 2.857rem
+			line-height 2.857rem
+			background-color #038cd6
+			border-top-left-radius 4px
+			border-top-right-radius 4px
+			cursor move
+			user-select none
+			.panel-title
+				display inline-block
+				color #fff
+				font-family Roboto-Medium
+				font-size 1.125rem
+			.panel-close
+				display inline-block
+				position absolute
+				width 1rem
+				height 1rem
+				right 1.25rem
+				top 0.75rem
+				background url('~statics/images/contentCarousel/icon-pop-close.png') center no-repeat
+		.panel-main-iwinad
+			border 1px solid #ccc
+			border-top 0
+			background-color #fff
+			.notice-wrap
+				position relative
+				padding-left 1.429rem
+				background-color #fdf0d2
+				height 2.857rem
+				line-height 2.857rem
+				.notice-icon
+					display inline-block
+					vertical-align middle
+					width 1.143rem
+					height 1.143rem
+					background url('~statics/images/contentCarousel/notice.png') center no-repeat
+				.notice-content
+					display inline-block
+					vertical-align middle
+					margin-left 0.714rem
+					font-size 1rem
+					color #666
+					font-family Roboto-Regular
+				.clear
+					position absolute
+					right 1rem
+					font-size 1rem
+					color #00a4fc
+					text-decoration underline
+					font-family Roboto-Regular
+		.panel-content
+			min-height 28.125rem
+			padding 1.429rem
+			background-color #fff
+			.default-wrap
+				text-align center
+				img
+					display block
+					margin 7.14rem auto 1.429rem auto
+				span
+					display inline-block
+					width 13.4rem
+					font-family Roboto-Light
+					color #999999
+					font-size 1rem
+			.fontsize-wrap
+				font-family Roboto-Regular
+				font-size 0.85rem
+				color #666666
+			.setting-title
+				font-size 16px
+				font-family Roboto-Regular
+				color #333333
+				margin-bottom 1rem
+				height 1.57rem
+				line-height 1.57rem
+			.operate
+				float right
+				top 8px
+				margin-right 1.43rem
+				font-size 12px
+				font-family Roboto-Regular
+				color #00a4fc
+				text-decoration underline
+			.grid-select
+				margin-left -10px
+				margin-bottom 10px
+				.grid-item
+					position relative
+					display inline-block
+					vertical-align top
+					margin-left 10px
+					margin-bottom 10px
+					padding-top 1rem
+					border 1px solid #e6e6e6
+					border-radius 2px
+					width calc(50% - 13px)
+					height 7.86rem
+					background-color #f0f0f0
+					text-align center
+					img
+						display block
+						margin 0 auto
+					span
+						margin-top 0.6rem
+						display inline-block
+						font-family Roboto-Regular
+						font-size 1rem
+						color #333
+				.check-item
+					border 1px solid #038cd6
+					background-color #fff2f4
+					&:after
+						content ''
+						position absolute
+						right 0
+						bottom 0
+						z-index 20
+						display block
+						width 1.71rem
+						height 1.71rem
+						background url('~statics/images/contentCarousel/check.png') center no-repeat
+						background-size 100%
+			.general-panel
+				border-top 1px solid #e6e6e6
+				margin-bottom 1.42rem
+				.panel-title
+					margin 1.42rem 0 1.14rem 0
+					font-size 16px
+					font-family Roboto-Regular
+					color #333333
+				.g-radio
+					margin-right 2.14rem
+					.q-option-inner.active
+						color #038cd6
+					.q-option-inner + .q-option-label
+						font-family Roboto-Regular
+						color #333333
+						font-size 12px
+				.g-checkbox
+					margin-top 1.85rem
+					.q-option-inner.active
+						color #038cd6
+					.q-option-inner + .q-option-label
+						font-family Roboto-Regular
+						color #333333
+						font-size 12px
+			.manager-panel
+				.panel-title
+					padding-bottom 14px
+					font-size 16px
+					font-family Roboto-Regular
+					color #333333
+					border-bottom 1px solid #e6e6e6
+			.customize-panel
+				font-family Roboto-Regular
+				font-size 12px
+				color #666666
+			.customize
+				position relative
+				margin-top 1.35rem
+				display flex
+				align-items center
+				a
+					display block
+					width 1.29rem
+					height 1.29rem
+				.plus
+					background url('~statics/images/contentCarousel/plus.png') center no-repeat
+					background-size 100%
+				.minus
+					background url('~statics/images/contentCarousel/minus.png') center no-repeat
+					background-size 100%
+				.c-slider
+					width 50%
+					.q-slider-handle-container
+						margin 0 15px
+						.q-slider-track
+							height 10px
+							border-radius 5px
+							background-color #fff
+							border 1px solid #ccc
+						.active-track
+							background-color #038cd6
+						.q-slider-handle
+							width 18px
+							height 18px
+							background-color #fff
+							border 1px solid #ccc
+							.q-slider-ring
+								background-color #038cd6
+						.q-slider-handle.handle-at-minimum:after
+							border 1px solid #ccc
+				.result
+					position absolute
+					right 1.5rem
+					font-size 12px
+					font-family Roboto-Regular
+					color #333333
+			.dom-panel
+				margin-left -10px
+				.dom-item
+					display inline-block
+					vertical-align top
+					margin-left 10px
+					margin-bottom 10px
+					width calc(50% - 13px)
+					height 7.86rem
+					border 1px solid #e6e6e6
+					border-radius 2px
+					text-align center
+					cursor pointer
+					&:hover
+						background-color #f0f0f0
+					.dom-icon
+						width 1.714rem
+						height 1.714rem
+						display block
+						margin 2.14rem auto 1.5rem auto
+					.dom-type
+						font-size 16px
+						font-family Roboto-Regular
+						color #333333
+			.size-item
+				margin-bottom 1.429rem
+				.size-item-title
+					display block
+					font-family Roboto-Regular
+					font-size 0.85rem
+					color #666666
+				.size-input
+					display block
+					margin-top 10px
+					width 100%
+					height 2.14rem
+					border 1px solid #ccc
+					border-radius 2px
+			.border-item
+				border 1px solid #e6e6e6
+				background-color #f0f0f0
+				text-align center
+				img
+					display block
+					width 3.571rem
+					height 3.571rem
+					margin 1rem auto 0.5rem auto
+				span
+					display inline-block
+					margin-bottom 0.71rem
+					font-size 0.85rem
+					font-family Roboto-Regular
+					color #333333
+				.w-border
+					border 2px solid white
+				.b-border
+					border 2px solid black
+				.r-border
+					border 2px solid red
+				.rb-shadow
+					box-shadow 3px 3px 5px 1px #999
+				.b-shadow
+					box-shadow 0 3px 5px 1px #999
+				.ll-shadow
+					box-shadow -3px 3px 5px 1px #999
+			.list-group-wrap
+				margin-top 10px
+				margin-bottom 20px
+				background-color #f5f5f5
+				.list-item
+					span
+						position relative
+						display block
+						padding-left 40px
+						height 40px
+						line-height 40px
+						font-family Roboto-Regular
+						font-size 14px
+						color #333333
+						cursor pointer
+						&:hover
+							background-color #e6e6e6
+							.more-operate
+								display inline-block
+						.f-icon
+							position absolute
+							display inline-block
+							width 12px
+							height 12px
+							top 50%
+							transform translateY(-50%)
+							left 10px
+						.fold-icon
+							background url('~statics/images/contentCarousel/fold.png') center no-repeat
+						.unfold-icon
+							background url('~statics/images/contentCarousel/unfold.png') center no-repeat
+						.more-operate
+							display none
+							float right
+							width 16px
+							height 16px
+							margin-top 10px
+							margin-right 10px
+							background url('~statics/images/contentCarousel/more-operate.png') center no-repeat
+							&:hover
+								.operate-menu
+									display block
+							.operate-menu
+								position absolute
+								right -10px
+								z-index 1000
+								height 250px
+								padding-top 8px
+								margin-top -8px
+								top 39px
+								display none
+								.menu-main
+									border 1px solid #999
+									border-radius 2px
+									&:before
+										content ''
+										position absolute
+										border-left 8px solid transparent
+										border-right 8px solid transparent
+										border-top 12px solid transparent
+										border-bottom 12px solid #999
+										right 19px
+										top -16px
+									&:after
+										content ''
+										position absolute
+										border-left 7px solid transparent
+										border-right 7px solid transparent
+										border-top 11px solid transparent
+										border-bottom 11px solid #fff
+										right 20px
+										top -12px
+									li
+										padding-left 10px
+										width 100px
+										height 40px
+										background-color #fff
+										font-style normal
+										box-sizing border-box
+										&:hover
+											background-color #f5f5f5
+						.auth-icon
+							display inline-block
+							float right
+							width 16px
+							height 16px
+							margin-top 10px
+							margin-right 14px
+							background url('~statics/images/contentCarousel/link-shiled.png') center no-repeat
+						.hide-icon
+							display inline-block
+							float right
+							width 16px
+							height 16px
+							margin-top 10px
+							margin-right 14px
+							background url('~statics/images/contentCarousel/link-hide.png') center no-repeat
+					.link-icon
+						display inline-block
+						vertical-align middle
+						width 16px
+						height 16px
+						margin-right 10px
+					.rename-input
+						border 1px solid #cccccc
+						border-radius 2px
+						width 100%
+						height 40px
+					.sublist-group
+						.sublist-item
+							padding-left 80px
+							height 40px
+							line-height 40px
+							font-family Roboto-Regular
+							font-size 14px
+							color #333333
+							cursor pointer
+							&:hover
+								background-color #e6e6e6
+						.sortable-chosen
+							border 1px solid #b3b3b3
+							background-color #e6e6e6
+						.sortable-ghost
+							opacity 1
+			.link-style-select
+				margin-top 16px
+				.grid-item
+					height 120px
+				.check-item
+					background-color #f0f0f0
+		.link-edit-panel
+			left 153%
+			.panel-content
+				min-height 0
+			.name-item
+				padding-bottom 20px
+				margin-bottom 20px
+				border-bottom 1px solid #e6e6e6
+			.catalog-item
+				.link-input
+					margin-top 16px
+				.search-input
+					position relative
+					width 100%
+					height 30px
+					border 1px solid #cccccc
+					border-radius 2px
+					input
+						padding-left 10px
+						width calc(100% - 28px)
+						height 100%
+						border 0
+					.search-icon
+						display inline-block
+						vertical-align middle
+						width 16px
+						height 16px
+						background url('~statics/images/contentCarousel/search-icon.png') center no-repeat
+					.catalog-panel
+						position absolute
+						top 35px
+						width 100%
+						background-color #fff
+						border 1px solid #cccccc
+						border-radius 2px
+						z-index 1200
+						.catalog-item
+							height 30px
+							line-height 30px
+							box-sizing border-box
+							padding-left 10px
+							font-family Roboto-Regular
+							font-size 14px
+							color #333333
+							&:hover
+								color #038cd6
+								cursor pointer
+				.q-if
+					margin-bottom 0
+					padding-bottom 0
+					&:before
+						height 0
+					&:after
+						height 0
+				.q-if-control
+					position absolute
+					right 5px
+			.link-edit-title
+				font-family Roboto-Regular
+				font-size 16px
+				color #333333
+			.link-edit-subtitle
+				font-family Roboto-Regular
+				font-size 12px
+				color #666666
+				margin-top 10px
+				margin-bottom 10px
+			.link-input
+				input
+					border 1px solid #cccccc
+					border-radius 2px
+					width 100%
+					height 30px
+			.g-setting
+				margin-top 20px
+				.g-radio
+					margin-right 2.14rem
+					.q-option-inner.active
+						color #038cd6
+					.q-option-inner + .q-option-label
+						font-family Roboto-Regular
+						color #333333
+						font-size 12px
+			.btn-wrap
+				margin-bottom 20px
+				text-align right
+				.btn-md-primary
+					margin-right 10px
+				.btn-md-red
+					margin-right 20px
+				.q-btn
+					width 80px
+					height 30px
+					text-transform none
+.douline-panel
+	margin-left -10px
+	.douline-item
+		width calc(50% - 13px)
+		margin-left 10px
+		display inline-block
+		vertical-align top
+.forline-panel
+	margin-left -10px
+	.forline-item
+		width calc(25% - 14px)
+		margin-left 10px
+		display inline-block
+		vertical-align top
+
+.upload-wrap
+	width 56.43rem
+	border-radius 2px
+	position absolute
+	left 50%
+	top 50%
+	transform translate(-50%, -50%)
+	background-color #fff
+	z-index 1000
+	.upload-title
+		position relative
+		padding 0 1.428rem
+		height 2.857rem
+		line-height 2.857rem
+		background-color #6a7782
+		border-top-left-radius 2px
+		border-top-right-radius 2px
+		h1
+			margin 0
+			display inline-block
+			font-family Roboto-Medium
+			font-size 1.285rem
+			color #fff
+		.close-cross
+			display block
+			position absolute
+			top 0.86rem
+			right 1.428rem
+			width 1.142rem
+			height 1.142rem
+			background url('~statics/images/contentCarousel/close-cross.png') center no-repeat
+	.upload-main
+		padding 20px 25px
+		background-color #fff
+		border 1px solid #ccc
+		border-bottom-left-radius 2px
+		border-bottom-right-radius 2px
+		.notice-wrap
+			display flex
+			align-items center
+			.notice-icon
+				display inline-block
+				width 2.857rem
+				height 2.857rem
+				background url('~statics/images/contentCarousel/upload-notice.png') center no-repeat
+			.notice-content
+				display block
+				margin-left 20px
+				max-width 47.714rem
+				color #333333
+				font-family Roboto-Light
+				font-size 1rem
+		.upload-panel
+			margin-top 40px
+			.url-wrap
+				display inline-block
+				vertical-align middle
+				border-right 1px solid #e6e6e6
+				padding-right 20px
+				margin-right 20px
+				input
+					display inline-block
+					vertical-align middle
+					width 190px
+					height 30px
+					border 1px solid #ccc
+					border-radius 2px
+					font-size 1rem
+				a
+					display inline-block
+					vertical-align middle
+					width 60px
+					height 30px
+					border 1px #038cd6 solid
+					border-radius 2px
+					font-size 1rem
+					font-family Roboto-Regular
+					color #038cd6
+					text-align center
+					line-height 30px
+			.upload-btn
+				display inline-block
+				vertical-align middle
+				width 139px
+				height 30px
+				text-align center
+				line-height 30px
+				color #fff
+				font-family Roboto-Regular
+				font-size 1rem
+				background-color #038cd6
+				border-radius 2px
+				i
+					display inline-block
+					vertical-align middle
+					width 16px
+					height 16px
+					background url('~statics/images/contentCarousel/upload.png') center no-repeat
+		.upload-detail-wrap
+			margin-top 30px
+			padding-top 20px
+			border-top 1px solid #e6e6e6
+			.detail-title
+				font-size 16px
+				color #333333
+				font-family Roboto-Regular
+			.detail-item-wrap
+				width 100%
+				margin-left -10px
+				margin-top 16px
+				.detail-item
+					display inline-block
+					margin-left 10px
+					margin-bottom 10px
+					width calc(25% - 14px)
+					height 60px
+					border 1px solid #e6e6e6
+					border-radius 2px
+.q-popover
+	box-shadow unset
+	.list
+		border 1px solid #e6e6e6!important
+		border-radius 2px
+		.q-item.active
+			background-color #fff
+			color #038cd6
+.imgsetting-panel
+	display flex
+	margin-top -1.14rem
+	.panel-left
+		.left-title
+			font-size 16px
+			color #333
+			font-family Roboto-Regular
+			white-space nowrap
+		.is-upload-wrap
+			margin-top 16px
+			position relative
+			.upload-enter	
+				height 112px
+				width 112px
+				border 1px solid #ccc
+				background url("~statics/images/contentCarousel/add-image.png") no-repeat center center
+				input[type="file"]
+					height 112px
+					width 112px
+					opacity 0
+					padding-left 0
+			.upload-preview
+				position absolute
+				top 0
+				left 0
+				height 112px
+				width 112px
+				&:hover
+					.icon-box
+						display block
+				img
+					width 100%
+					height 100%
+				.icon-box
+					background-color rgba(23, 23, 23, .5)
+					position absolute
+					left 0
+					bottom 0
+					height 28px
+					width 100%
+					display none
+					.com-style
+						display inline-block
+						width 24px
+						height 28px
+						position absolute
+						top 0
+						cursor pointer
+					.edit-icon
+						background url("~statics/images/contentCarousel/edit-white.png") no-repeat center center
+						right 24px
+					.del-icon
+						background url("~statics/images/contentCarousel/delete-white.png") no-repeat center center
+						right 0
+	.panel-right
+		.douline-item
+			width calc(50% - 11px)
+			margin-left 8px
+			display inline-block
+			vertical-align top
+			margin-bottom 12px
+
+.general-panel
+	.addlink-icon
+		position relative
+		padding-right 32px
+		.input-text
+			outline none
+			border 1px solid #ccc
+			width 100%
+			height 30px
+		.link-icon
+			display inline-block
+			height 24px
+			width 24px
+			position absolute
+			right 0
+			top 3px
+			background url("~statics/images/contentCarousel/link.png") no-repeat center center
+			cursor pointer

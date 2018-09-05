@@ -1,0 +1,210 @@
+.register-page
+    position relative
+    .r-header
+        background-color #fff
+        position relative
+        left 0
+        top 0
+        width 100%
+        box-shadow 0px 0px 10px 6px rgba(0,0,0,0.1)
+        .logo-text
+            display inline-block
+            position absolute
+            left 13.8%
+            top 50%
+            transform translateY(-50%)
+            line-height 1.5
+            height 30px
+            font-size 24px
+            color #333
+            font-family 'KhmerMN'
+            text-transform uppercase
+            cursor pointer
+        .other
+            display inline-block
+            position absolute
+            right 13.8%
+            top 50%
+            transform translateY(-50%)
+            line-height 14px
+            height 14px
+            font-size 18px
+            color #333
+            >*
+                cursor: pointer
+            .haveAccount
+                color #b2b2b2
+                cursor text
+                letter-spacing 0px
+            .signIn
+                font-weight bold
+                letter-spacing 0px
+                padding-left 10px
+                img
+                    padding-left 10px
+    .r-content
+        display flex
+        flex-direction row
+        justify-content center
+        align-items center
+        min-height 590px
+        .signUpBox
+            width 510px
+            min-height 510px
+            border 1px solid #ccc
+            margin-top 50px
+            box-shadow 2px -2px 30px 2px #ccc
+            padding 25px 40px
+            background-color #fefefe
+            .custom
+                >*
+                    width: 100%
+            h3
+                font-size 24px
+                color #252525
+                margin 0px
+                font-weight bold
+            .type
+                margin-top 24px
+                height 40px
+                line-height 40px
+                font-size 14px
+                font-weight bold
+                .phone
+                    float left
+                    cursor pointer
+                    color #b2b2b2
+                    &.selected
+                        color #0c0c0c                   
+                .email
+                    margin-left 32px
+                    color #b2b2b2
+                    float left
+                    cursor pointer
+                    &.selected
+                        color #0c0c0c                                    
+            .input-group
+                position relative
+                margin-bottom 20px
+                input
+                    padding 12px 20px
+                    color #b2b2b2
+                    border 1px solid #b2b2b2
+                    height 56px
+                    line-height 32px
+                    font-size 14px
+                    padding-right 40px
+                    width 100%
+                &.error
+                    input
+                        border 1px solid #e50017
+                        color #e50017  
+                .errMessage
+                    position relative
+                    font-size 14px
+                    color #e50017
+                    letter-spacing 0
+                    height auto
+                    text-align left
+                    line-height 18px
+                    word-wrap break-word  
+                .points
+                    position absolute
+                    bottom 50px
+                    width 250px
+                    padding 16px
+                    background #fff
+                    border 1px solid #cccccc
+                    border-radius 2px
+                    &:before
+                        content ' '
+                        display block
+                        width 10px
+                        height 10px
+                        background #fff
+                        position absolute
+                        bottom -5px
+                        left 125px
+                        transform  rotate(45deg)
+                        border-bottom 1px solid #ccc
+                        border-right 1px solid #ccc
+                    .points-title
+                        margin-bottom 3px 
+                    p 
+                        font-size 12px
+                        color #666
+                        margin-bottom 0 
+                        line-height 20px
+                        &.active
+                            color #5fb870
+                        span
+                            letter-spacing 0px   
+            .verifi-wrap  
+                position relative
+                margin-bottom 20px 
+                .errMessage
+                    position relative
+                    font-size 14px
+                    color #e50017
+                    letter-spacing 0
+                    height auto
+                    text-align left
+                    line-height 18px
+                    word-wrap break-word                    
+            .verificationBox
+                display flex
+                justify-content center
+                -webkit-box-pack center
+                >.verification
+                    box-flex 1
+                    flex-grow 1
+                    padding 12px 20px
+                    color #b2b2b2
+                    border 1px solid #b2b2b2
+                    height 56px
+                    line-height 32px
+                    font-size 14px
+                    padding-right 40px
+                >.sendVerification
+                    font-weight bold
+                    min-width: 100px
+                    border 1px solid #b2b2b2
+                    border-left none
+                    background-color: #fff
+                    height 56px
+                    line-height 32px
+                    font-size 14px
+                    text-align center
+                    cursor: pointer
+                    outline 0 
+                &.error
+                    input
+                        border 1px solid #e50017
+                        color #e50017                                                        
+            .signUp
+                height 56px
+                background-color #000
+                border none
+                border-radius 32px
+                color #fff
+                cursor pointer
+                margin-bottom 30px
+                outline none
+
+@media screen and (min-width: 1560px)
+    .register-page
+        .r-header
+            height 74px                                                  
+@media screen and (max-width:1560px) 
+    .register-page
+        .r-header
+            height 56px !important
+    .r-content
+        .signUpBox
+            width 480px !important
+            margin-top 30px !important
+            padding 28px 43px !important
+            h3
+                font-size 22px !important
+            .type
+                margin-top 18px !important     

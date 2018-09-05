@@ -1,0 +1,186 @@
+.Exchange.main
+    display flex
+    justify-content center
+    flex-direction column
+    width 100%
+    //padding 0 0 0 2%
+    font-family HelveticaNeue
+    .Exchange-inner
+      border 1px solid $border-color-1
+      .field-inp
+        position relative
+        margin-bottom 18px
+        margin-top 0
+        label
+          color $all-color-3
+          font-size 12px 
+          position absolute 
+          top 8px
+          left 14px
+          em
+            font-style normal 
+            color $negative 
+            margin-right 3px
+        .field-view-inp
+          border 1px solid $border-color-1
+          padding 24px 14px 2px 14px
+          .q-if-control
+              position relative
+              top -8px
+        .q-if:after
+          opacity 0
+        .q-if:before
+          opacity 0
+        .q-if-label
+          color $all-color-3
+        .q-if-focused
+          .q-if-label
+              color $all-color-3
+        
+        &.q-field-with-error 
+              margin-bottom 0
+              .q-field-bottom   
+                  min-height 18px
+                  line-height 14px
+                  padding 2px
+       .Exchange-left
+          padding 16px 25px
+          border-right 1px solid $border-color-1
+          .cardSelect-title
+             margin-top 20px
+             color $all-color-3
+             font-size 14px
+          .cardList
+             margin 0 -10px
+             zoom:1
+             &:after
+                display block
+                clear both
+                content ""
+                visibility hidden 
+                height 0
+             div 
+               float left
+               padding 8px 10px
+               box-sizing border-box
+               width 20%
+               span  
+                 display block
+                 text-align center
+                 border 1px solid $border-color-1
+                 padding 16px 14px
+                 font-size 14px
+                 cursor pointer
+                 color $all-color-3 
+                 white-space nowrap
+                 text-overflow ellipsis
+                 overflow hidden
+                 line-height 16px
+                 input 
+                   height 16px
+                   border none 
+                   outline none 
+                   width calc(100% - 16px)
+                   color $all-color-3 
+                   &::-webkit-input-placeholder
+                       color $all-color-3 
+               &.active
+                span 
+                   border 1px solid $font-color-4
+                   color $all-color-1
+                   input 
+                     color $all-color-1
+            .confirm-bottom
+               display flex
+               align-items stretch
+               position relative
+               margin 18px 0 14px 0
+               min-height 32px
+               .checkBox
+                  font-size 14px
+                  color #fff
+                  margin 0 8px
+                  display -ms-flexbox
+                  display flex
+                  -ms-flex-pack center
+                  justify-content center
+                  -ms-flex-align center
+                  align-items center
+                  width 32px
+                  height 32px
+                  border-radius 50px
+                  font-size 22px
+                  background $all-color-1
+                  cursor pointer
+                  opacity .2
+                  &.active
+                    opacity 1
+                 .agree
+                    line-height 32px
+                    color $font-color-5
+                    font-size 16px
+                    font-weight 600
+                    span
+                      color $font-color-4
+                      cursor pointer
+                  .btn
+                    position absolute
+                    right 0
+                    top -2px
+                    width calc(180/1920*100vw)
+                    height calc(32/1920*100vw)
+                    min-width 180px
+                    min-height 36px
+                    border-radius: 50px
+                    background-color $background-color-4
+                    color $all-color-2
+                    font-size 18px
+                    text-align center
+                    text-transform uppercase
+                    display flex
+                    justify-content center
+                    align-items center
+                    cursor pointer
+                    &.disable
+                      background-color $border-color-1
+                      color $all-color-2
+       .Exchange-right
+          height 100%
+          position relative
+          .ad-img
+              height calc(100% - 54px)
+              text-align center
+              background rgba($all-color-1,.1)
+              img 
+                max-width 100%
+                max-height 100%
+                position relative
+                top 50%
+                transform translateY(-50%)
+          .ad-title
+             background rgba($all-color-1,.7)
+             color $all-color-2
+             font-size 18px
+             padding 0 16px
+             line-height 54px
+             text-align center
+             cursor pointer
+             position absolute
+             left 0
+             bottom 0
+             width 100%
+.model-center
+    padding 0 8px 0px 8px
+    margin: 72px 8px 66px 8px;
+    max-height calc(100% - 138px)
+    overflow-y auto
+    .font-12
+        font-size 12px
+    .font-14
+        font-size 14px
+    .font-16
+        font-size 16px
+    .m-bottom--small
+        margin-bottom 16px
+    .m-top--small
+        margin-top 16px

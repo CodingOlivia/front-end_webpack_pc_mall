@@ -1,0 +1,117 @@
+html[app='desktop'], html[app='desktop'] body
+  font-family $pc_normal_font
+html[app='desktop'] body
+ .navTop 
+   .popupShoppingBag 
+      .popupShoppingBagBox 
+          .shoppingBagBody 
+              .shoppingBagPackage 
+                  .packageItem 
+                      .packageItem-left
+                          flex 1
+                          overflow hidden
+                          >.shoppingbtn
+                            background #f9f9f9
+                            font-size 14px
+                            color #f9f9f9
+                            display -ms-flexbox
+                            display flex
+                            -ms-flex-pack center
+                            justify-content center
+                            -ms-flex-align center
+                            align-items center
+                            width 24px
+                            height 24px
+                            border-radius 50px
+                            border 1px solid #b2b2b2
+                            font-size 16px
+                            cursor pointer
+                            opacity 1
+                            &.disable
+                               background #252525
+                               font-size 14px
+                               color #fff
+                               opacity 0.3
+                            &.active
+                               background #252525
+                               font-size 14px
+                               color #fff
+                               opacity 1
+                          .packageItemImformation
+                             flex 1
+                             overflow hidden
+                             .packageItemName
+                                  line-height normal
+                                  cursor pointer
+                          .packageItemImgBox
+                            position relative
+                            cursor pointer
+                            .littleTips
+                                position absolute
+                                width 100%
+                                height 24px
+                                color #fff
+                                font-size 14px
+                                display flex
+                                justify-content center
+                                align-items center
+                                background #fc2f75
+                                bottom 0px
+                                left 0
+                                z-index 100
+                            .shade
+                                width 100%
+                                height 100%
+                                position absolute
+                                background #fff
+                                opacity 0.5
+                                top 0
+                                left 0
+                          .packageItemImformation
+                             position relative
+                             .shade
+                                width 100%
+                                height 100%
+                                position absolute
+                                background #fff
+                                opacity 0.5
+                                top 0
+                                left 0
+              .shoppingBagItem
+                  .shoppingBagItem-left
+                      flex 1
+                      overflow hidden
+                      >.shoppingbtn
+                         &.disable
+                            background #252525
+                            font-size 14px
+                            color #fff
+                            opacity 0.3
+                      .itemImgBox
+                          cursor pointer
+                          .littleTips
+                            position absolute
+                            width 100%
+                            height 24px
+                            color #fff
+                            font-size 14px
+                            display flex
+                            justify-content center
+                            align-items center
+                            background #fc2f75
+                            bottom 0px
+                            left 0
+                            z-index 100
+                      .itemImformation
+                         .itemName
+                             cursor pointer
+                              
+          .shoppingBag-bottom
+              >.shoppingbtn
+                 &.disable
+                    background #252525
+                    font-size 14px
+                    color #fff
+                    opacity 0.3
+
+        

@@ -1,0 +1,1187 @@
+{
+  "package": {
+    "id": "package",
+    "ratingModel": 4,
+    "smallImg": [
+      {"src": "./statics/images/ProductContent/1.jpg", "id": "src1", "smImg": "smImg", "activeOpacity": 1},
+      {"src": "./statics/images/ProductContent/2.jpg", "id": "src2", "smImg": "smImg", "activeOpacity": 0.5},
+      {"src": "./statics/images/ProductContent/3.jpg", "id": "src3", "smImg": "smImg", "activeOpacity": 0.5},
+      {"src": "./statics/images/ProductContent/4.jpg", "id": "src4", "smImg": "smImg", "activeOpacity": 0.5}
+    ],
+    "link": [
+      {"href": "/Overview", "label": "OVERVIEW", "id": "1"},
+      {"href": "/Gallery", "label": "GALLERY", "id": "2"},
+      {"href": "/TechSpec", "label": "TECH SPEC", "id": "3"},
+      {"href": "/Reviews", "label": "REVIEWS", "id": "4"}
+    ],
+    "productInf": [{
+      "title": "Huawei VR 2 + 198 Bundle",
+      "discrip": "ETVR Upgraded 3D VR Glasses for Movies and Games with Stereo Headphone - More Lightweight Virtual Reality Headset with 120 Degree FOV - Fit for 4.7'-6.2' iPhone & Android Smartphones",
+      "reson": "Average based on 1108 reviews"}
+    ],
+    "choiceColorTitle": "Selected color:  Natural",
+    "choice": [
+      {
+        "id": "1",
+        "color": "dark",
+        "icon": ""
+      },
+      {
+        "id": "2",
+        "color": "tertiary",
+        "icon": ""
+      },
+      {
+        "id": "3",
+        "color": "blue-grey-4",
+        "icon": ""
+      }
+    ],
+    "memory": [
+      {
+        "title": "Memory",
+        "size": [
+          {
+            "id": 1,
+            "sizeNum": "64 GB"
+          },
+          {
+            "id": 2,
+            "sizeNum": "256 GB"
+          }
+        ]
+      }
+    ],
+    "primary": [
+      {
+        "title": "Primary",
+        "primary": [
+          {
+            "id": 1,
+            "primaryDecBig": "$198 /mo.",
+            "primaryDecSmall": "Voice: 300 min, SMS: unlimited, Data: 20 GB"
+          }
+        ]
+      }
+    ],
+    "Payment": [
+      {
+        "id": 1,
+        "method": "OneTimeFee",
+        "value": "$1299"
+      },
+      {
+        "id": 2,
+        "method": "MonthlyFee",
+        "value": "$198"
+      }
+    ],
+    "num": 1,
+    "share": [
+      {"name": "thumb_up", "id": "1"},
+      {"name": "ion-heart", "id": "2"},
+      {"name": "fa-facebook-f", "id": "3"}
+    ],
+    "bigImageSrc": "./statics/images/ProductContent/big0.jpg",
+    "slider": [
+      "./statics/images/gallery/pic1.png",
+      "./statics/images/gallery/pic2.png",
+      "./statics/images/gallery/pic3.png",
+      "./statics/images/gallery/pic4.png"
+    ],
+    "Gallery": [
+      {"src": "./statics/images/overview/1.png"},
+      {"src": "./statics/images/overview/2.png"},
+      {"src": "./statics/images/overview/3.png"},
+      {"src": "./statics/images/overview/4.png"}
+    ],
+    "btnName": "",
+    "display": 5,
+    "current": 1,
+    "page": 1,
+    "details": [],
+    "detailsAll": [],
+    "detailsCopy": [
+      {
+        "id": "1",
+        "qlist": [
+          {
+            "id": "1",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "1",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "Here is the sample user commentr.The evidence is supplied with the reliability design for the new products through fuzzy synthetic appraisal example.Here is the sample user commentr.",
+            "text": [
+              {
+                "id": "1",
+                "title": "by Customer service",
+                "ptext": "The evidence is supplied with the reliability design for the new products through fuzzy synthetic appraisal example.Here is the sample user commentr.The evidence is supplied with the reliability design for the new products through fuzzy synthetic appraisal example.Here is the sample user commentr."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "qlist": [
+          {
+            "id": "2",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "2",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "Here is the sample user commentr.The evidence is supplied with the reliability design for the new products through fuzzy synthetic appraisal example.Here is the sample user commentr.",
+            "text": [
+              {
+                "id": "2",
+                "title": "by Customer service",
+                "ptext": "The evidence is supplied with the reliability design for the new products through fuzzy synthetic appraisal example.Here is the sample user commentr.The evidence is supplied with the reliability design for the new products through fuzzy synthetic appraisal example.Here is the sample user commentr."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "qlist": [
+          {
+            "id": "3",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "3",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test3",
+            "text": [
+              {
+                "id": "3",
+                "title": "by Customer service",
+                "ptext": "test3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "qlist": [
+          {
+            "id": "4",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 12:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "4",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test4",
+            "text": [
+              {
+                "id": "4",
+                "title": "by Customer service",
+                "ptext": "test4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "qlist": [
+          {
+            "id": "5",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "5",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test5",
+            "text": [
+              {
+                "id": "5",
+                "title": "by Customer service",
+                "ptext": "test5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "qlist": [
+          {
+            "id": "6",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "6",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test6",
+            "text": [
+              {
+                "id": "6",
+                "title": "by Customer service",
+                "ptext": "test6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "qlist": [
+          {
+            "id": "7",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "7",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test7",
+            "text": [
+              {
+                "id": "7",
+                "title": "by Customer service",
+                "ptext": "test7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "qlist": [
+          {
+            "id": "8",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "8",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test8",
+            "text": [
+              {
+                "id": "8",
+                "title": "by Customer service",
+                "ptext": "test8."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "qlist": [
+          {
+            "id": "9",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "9",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test9",
+            "text": [
+              {
+                "id": "9",
+                "title": "by Customer service",
+                "ptext": "test9."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "qlist": [
+          {
+            "id": "10",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "10",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test10.",
+            "text": [
+              {
+                "id": "10",
+                "title": "by Customer service",
+                "ptext": "test10."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "qlist": [
+          {
+            "id": "11",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "11",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test11",
+            "text": [
+              {
+                "id": "11",
+                "title": "by Customer service",
+                "ptext": "test11."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "qlist": [
+          {
+            "id": "12",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "12",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test12",
+            "text": [
+              {
+                "id": "12",
+                "title": "by Customer service",
+                "ptext": "test12."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "btn": [
+      {
+        "btnName": "test",
+        "btnNum": ""
+      },
+      {
+        "btnName": "test1",
+        "btnNum": ""
+      },
+      {
+        "btnName": "test2",
+        "btnNum": ""
+      },
+      {
+        "btnName": "test",
+        "btnNum": ""
+      },
+      {
+        "btnName": "VR2",
+        "btnNum": ""
+      }
+    ],
+    "select": "fb",
+    "options": [
+      {
+        "label": "Google",
+        "value": "goog"
+      },
+      {
+        "label": "Recommendation",
+        "value": "fb"
+      },
+      {
+        "label": "Twitter",
+        "value": "twtr"
+      },
+      {
+        "label": "Apple Inc.",
+        "value": "appl"
+      },
+      {
+        "label": "Oracle",
+        "value": "ora"
+      }
+    ],
+    "detail": {
+      "packageType": "Mobile Kit",
+      "packageUpfrontTotal": 0,
+      "packageMonthlyTotal": 0,
+      "packageItem": [
+        {
+          "packageItemImgUrl": "./statics/phone.png",
+          "packageItemName": "Apple iPhone X + 198 Bundle",
+          "packageItemPrice": "1149.00",
+          "packageItemPriceNumber": "1149.00",
+          "packageItemUpfront": "1149.00",
+          "packageItemMonthly": "0.00",
+          "packageItemNumber": 1,
+          "packageItemType": "Device",
+          "packageItemDetail1": "Memory: 256 GB, Primary: 198 Bundle, Color: Space gray",
+          "packageItemDetail2": "Delivery: In Stock",
+          "packageItemDetail3": "Memory: 256 GB",
+          "packageItemDetail4": "Primary: 198 Bundle",
+          "packageItemDetail5": "Color: Space gray"
+        },
+        {
+          "packageItemImgUrl": "./statics/phone2.png",
+          "packageItemName": "198 Bundle",
+          "packageItemPrice": "198.00 /mo.",
+          "packageItemPriceNumber": "198.00",
+          "packageItemUpfront": "0.00",
+          "packageItemMonthly": "198.00",
+          "packageItemNumber": 1,
+          "packageItemType": "Plan",
+          "packageItemDetail1": "Voice 300 min, SMS: unlimited, Data: 20 GB",
+          "packageItemDetail2": "",
+          "packageItemDetail3": "Voice: 300 min",
+          "packageItemDetail4": "SMS: unlimited",
+          "packageItemDetail5": "Data: 20 GB"
+        }
+      ]
+    },
+    "Finish": [{
+      "title": "Finish",
+      "productType": [
+        {"src": "./statics/images/techspec/1.png", "color": "Space Gray"},
+        {"src": "./statics/images/techspec/2.png", "color": "Silver"}
+      ]
+    }],
+    "Capacity": [{
+      "title": "Capacity",
+      "GB": [
+        {"GBNUM": "GB64"},
+        {"GBNUM": "GB256"}
+      ]
+    }],
+    "Size": [{
+      "title": "Size and Weight",
+      "src": "./statics/images/techspec/3.png",
+      "sizeDiscrip": [
+        {"discripName": "Height", "discripNum": "5.65 inches (143.6 mm)"},
+        {"discripName": "Width", "discripNum": "2.79 inches (70.9 mm)"},
+        {"discripName": "Depth", "discripNum": "0.30 inch (7.7 mm)"},
+        {"discripName": "Weight", "discripNum": "6.14 ounces (174 grams)"}
+      ]
+    }],
+    "Display": [{
+      "title": "Display",
+      "src": "./statics/images/techspec/4.png",
+      "displayDiscrip": [
+        {"displayContent": "Super Retina HD display"},
+        {"displayContent": "5.8-inch (diagonal) all-screen OLED Multi-Touch display"},
+        {"displayContent": "HDR display"},
+        {"displayContent": "2436-by-1125-pixel resolution at 458 ppi"},
+        {"displayContent": "1,000,000:1 contrast ratio (typical)"},
+        {"displayContent": "True Tone display"},
+        {"displayContent": "Wide color display (P3)"},
+        {"displayContent": "3D Touch"},
+        {"displayContent": "625 cd/m2 max brightness (typical)"},
+        {"displayContent": "Fingerprint-resistant oleophobic coating"},
+        {"displayContent": "Support for display of multiple languages and characters {simultan}ously"}
+      ],
+      "discripLongth": "The iPhone X display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 5.85 inches diagonally (actual viewable area is less)."
+    }],
+    "Splash": {
+      "title": "Splash, Water, and Dust Resistant",
+      "discrip": "Rated IP67 under IEC standard 60529"
+    },
+    "Camera": [{
+      "title": "Camera",
+      "cameraDiscrip": [
+        {"cameraContent": "12MP wide-angle and telephoto cameras"},
+        {"cameraContent": "Wide-angle: ƒ/1.8 aperture"},
+        {"cameraContent": "Telephoto: ƒ/2.4 aperture"},
+        {"cameraContent": "Optical zoom; digital zoom up to 10x"},
+        {"cameraContent": "Portrait mode"},
+        {"cameraContent": "Portrait Lighting (beta)"},
+        {"cameraContent": "Dual optical image stabilization"},
+        {"cameraContent": "Six‑element lens"},
+        {"cameraContent": "Quad-LED True Tone flash with Slow Sync"},
+        {"cameraContent": "Panorama (up to 63MP)"},
+        {"cameraContent": "Sapphire crystal lens cover"},
+        {"cameraContent": "Backside illumination sensor"},
+        {"cameraContent": "Hybrid IR filter"},
+        {"cameraContent": "Autofocus with Focus Pixels"},
+        {"cameraContent": "Tap to focus with Focus Pixels"},
+        {"cameraContent": "Live Photos with stabilization"},
+        {"cameraContent": "Wide color capture for photos and Live Photos"},
+        {"cameraContent": "Improved local tone mapping"},
+        {"cameraContent": "Body and face detection"},
+        {"cameraContent": "Exposure control"},
+        {"cameraContent": "Noise reduction"},
+        {"cameraContent": "Auto HDR for photos"},
+        {"cameraContent": "Auto image stabilization"},
+        {"cameraContent": "Burst mode"},
+        {"cameraContent": "Timer mode"},
+        {"cameraContent": "Photo geotagging"},
+        {"cameraContent": "Image formats captured: HEIF and JPEG"}
+      ]
+    }],
+    "Carriers": {
+      "title": "Carriers",
+      "src": "./statics/images/techspec/carriers.png"
+    },
+    "Cellular": [{
+      "title": "Cellular and  Wireless",
+      "discrip1": "Model A1865*",
+      "discrip2": "Model A1901*",
+      "discrip3": "Model A1901 does not support CDMA networks, such as those used by Verizon and Sprint.",
+      "discrip4": "All models",
+      "cellularContent1": [
+        {"cellularcontent1": "FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 29, 30, 66)"},
+        {"cellularcontent1": "TD-LTE (Bands 34, 38, 39, 40, 41)"},
+        {"cellularcontent1": "TD-SCDMA 1900 (F), 2000 (A)"},
+        {"cellularcontent1": "CDMA EV-DO Rev. A (800, 1900, 2100 MHz)"},
+        {"cellularcontent1": "UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)"},
+        {"cellularcontent1": "GSM/EDGE (850, 900, 1800, 1900 MHz)"}
+      ],
+      "cellularContent2": [
+        {"cellularcontent2": "FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 29, 30, 66)"},
+        {"cellularcontent2": "TD-LTE (Bands 34, 38, 39, 40, 41)"},
+        {"cellularcontent2": "UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)"},
+        {"cellularcontent2": "GSM/EDGE (850, 900, 1800, 1900 MHz)"}
+      ],
+      "cellularContent3": [
+        {"cellularcontent3": "802.11ac Wi‑Fi with MIMO"},
+        {"cellularcontent3": "Bluetooth 5.0 wireless technology"},
+        {"cellularcontent3": "NFC with reader mode"}
+      ]
+    }]
+  },
+  "item": {
+    "id": "item",
+    "ratingModel": 4,
+    "smallImg": [
+      {"src": "./statics/images/ProductContent/1.jpg", "id": "src1", "smImg": "smImg", "activeOpacity": 1},
+      {"src": "./statics/images/ProductContent/2.jpg", "id": "src2", "smImg": "smImg", "activeOpacity": 0.5},
+      {"src": "./statics/images/ProductContent/3.jpg", "id": "src3", "smImg": "smImg", "activeOpacity": 0.5},
+      {"src": "./statics/images/ProductContent/4.jpg", "id": "src4", "smImg": "smImg", "activeOpacity": 0.5}
+    ],
+    "link": [
+      {"href": "/Overview", "label": "OVERVIEW", "id": "1"},
+      {"href": "/Gallery", "label": "GALLERY", "id": "2"},
+      {"href": "/TechSpec", "label": "TECH SPEC", "id": "3"},
+      {"href": "/Reviews", "label": "REVIEWS", "id": "4"}
+    ],
+    "productInf": [{
+      "title": "Huawei VR 2",
+      "discrip": "ETVR Upgraded 3D VR Glasses for Movies and Games with Stereo Headphone - More Lightweight Virtual Reality Headset with 120 Degree FOV - Fit for 4.7'-6.2' iPhone & Android Smartphones",
+      "reson": "Average based on 1108 reviews"}
+    ],
+    "choiceColorTitle": "Selected color:  Natural",
+    "choice": [
+      {
+        "id": "1",
+        "color": "dark",
+        "icon": ""
+      },
+      {
+        "id": "2",
+        "color": "tertiary",
+        "icon": ""
+      },
+      {
+        "id": "3",
+        "color": "blue-grey-4",
+        "icon": ""
+      }
+    ],
+    "memory": [
+      {
+        "title": "Memory",
+        "size": [
+          {
+            "id": 1,
+            "sizeNum": "64 GB"
+          },
+          {
+            "id": 2,
+            "sizeNum": "256 GB"
+          }
+        ]
+      }
+    ],
+    "primary": [
+      {
+        "title": "Primary",
+        "primary": [
+          {
+            "id": 1,
+            "primaryDecBig": "$198 /mo.",
+            "primaryDecSmall": "Voice: 300 min, SMS: unlimited, Data: 20 GB"
+          }
+        ]
+      }
+    ],
+    "Payment": [
+      {
+        "id": 1,
+        "method": "OneTimeFee",
+        "value": "$1299"
+      },
+      {
+        "id": 2,
+        "method": "MonthlyFee",
+        "value": "$198"
+      }
+    ],
+    "num": 1,
+    "share": [
+      {"name": "thumb_up", "id": "1"},
+      {"name": "ion-heart", "id": "2"},
+      {"name": "fa-facebook-f", "id": "3"}
+    ],
+    "bigImageSrc": "./statics/images/ProductContent/big0.jpg",
+    "slider": [
+      "./statics/images/gallery/pic1.png",
+      "./statics/images/gallery/pic2.png",
+      "./statics/images/gallery/pic3.png",
+      "./statics/images/gallery/pic4.png"
+    ],
+    "Gallery": [
+      {"src": "./statics/images/overview/1.png"},
+      {"src": "./statics/images/overview/2.png"},
+      {"src": "./statics/images/overview/3.png"},
+      {"src": "./statics/images/overview/4.png"}
+    ],
+    "btnName": "",
+    "display": 5,
+    "current": 1,
+    "page": 1,
+    "details": [],
+    "detailsAll": [],
+    "detailsCopy": [
+      {
+        "id": "1",
+        "qlist": [
+          {
+            "id": "1",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "1",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "Here is the sample user commentr.The evidence is supplied with the reliability design for the new products through fuzzy synthetic appraisal example.Here is the sample user commentr.",
+            "text": [
+              {
+                "id": "1",
+                "title": "by Customer service",
+                "ptext": "The evidence is supplied with the reliability design for the new products through fuzzy synthetic appraisal example.Here is the sample user commentr.The evidence is supplied with the reliability design for the new products through fuzzy synthetic appraisal example.Here is the sample user commentr."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "qlist": [
+          {
+            "id": "2",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "2",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "Here is the sample user commentr.The evidence is supplied with the reliability design for the new products through fuzzy synthetic appraisal example.Here is the sample user commentr.",
+            "text": [
+              {
+                "id": "2",
+                "title": "by Customer service",
+                "ptext": "The evidence is supplied with the reliability design for the new products through fuzzy synthetic appraisal example.Here is the sample user commentr.The evidence is supplied with the reliability design for the new products through fuzzy synthetic appraisal example.Here is the sample user commentr."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "qlist": [
+          {
+            "id": "3",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "3",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test3",
+            "text": [
+              {
+                "id": "3",
+                "title": "by Customer service",
+                "ptext": "test3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "qlist": [
+          {
+            "id": "4",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 12:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "4",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test4",
+            "text": [
+              {
+                "id": "4",
+                "title": "by Customer service",
+                "ptext": "test4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "qlist": [
+          {
+            "id": "5",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "5",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test5",
+            "text": [
+              {
+                "id": "5",
+                "title": "by Customer service",
+                "ptext": "test5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "qlist": [
+          {
+            "id": "6",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "6",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test6",
+            "text": [
+              {
+                "id": "6",
+                "title": "by Customer service",
+                "ptext": "test6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "qlist": [
+          {
+            "id": "7",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "7",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test7",
+            "text": [
+              {
+                "id": "7",
+                "title": "by Customer service",
+                "ptext": "test7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "qlist": [
+          {
+            "id": "8",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "8",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test8",
+            "text": [
+              {
+                "id": "8",
+                "title": "by Customer service",
+                "ptext": "test8."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "qlist": [
+          {
+            "id": "9",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "9",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test9",
+            "text": [
+              {
+                "id": "9",
+                "title": "by Customer service",
+                "ptext": "test9."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "qlist": [
+          {
+            "id": "10",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "10",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test10.",
+            "text": [
+              {
+                "id": "10",
+                "title": "by Customer service",
+                "ptext": "test10."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "qlist": [
+          {
+            "id": "11",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "11",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test11",
+            "text": [
+              {
+                "id": "11",
+                "title": "by Customer service",
+                "ptext": "test11."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "qlist": [
+          {
+            "id": "12",
+            "avatar": "./statics/images/Reviews/avatar1.png",
+            "label": "border",
+            "sublabel": "2018-3-5 20:35"
+          }
+        ],
+        "discuss": [
+          {
+            "id": "12",
+            "discussName": "VR2 Compatibility in Columbia, SC,USA",
+            "describe": "test12",
+            "text": [
+              {
+                "id": "12",
+                "title": "by Customer service",
+                "ptext": "test12."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "btn": [
+      {
+        "btnName": "test",
+        "btnNum": ""
+      },
+      {
+        "btnName": "test1",
+        "btnNum": ""
+      },
+      {
+        "btnName": "test2",
+        "btnNum": ""
+      },
+      {
+        "btnName": "test",
+        "btnNum": ""
+      },
+      {
+        "btnName": "VR2",
+        "btnNum": ""
+      }
+    ],
+    "select": "fb",
+    "options": [
+      {
+        "label": "Google",
+        "value": "goog"
+      },
+      {
+        "label": "Recommendation",
+        "value": "fb"
+      },
+      {
+        "label": "Twitter",
+        "value": "twtr"
+      },
+      {
+        "label": "Apple Inc.",
+        "value": "appl"
+      },
+      {
+        "label": "Oracle",
+        "value": "ora"
+      }
+    ],
+    "detail": {
+      "itemImgUrl": "./statics/phone3.png",
+      "itemName": "Apple iPhone X + 198 Bundle",
+      "itemPrice": "12.00",
+      "itemUpfront": "12.00",
+      "itemMonthly": "0.00",
+      "itemNumber": 1,
+      "itemType": "Device",
+      "itemDetail1": "Memory: 256 GB, Primary: 198 Bundle, Color: Space gray",
+      "itemDetail2": "Delivery: In Stock",
+      "itemDetail3": "Memory: 256 GB",
+      "itemDetail4": "Primary: 198 Bundle",
+      "itemDetail5": "Color: Space gray"
+    },
+    "Finish": [{
+      "title": "Finish",
+      "productType": [
+        {"src": "./statics/images/techspec/1.png", "color": "Space Gray"},
+        {"src": "./statics/images/techspec/2.png", "color": "Silver"}
+      ]
+    }],
+    "Capacity": [{
+      "title": "Capacity",
+      "GB": [
+        {"GBNUM": "GB64"},
+        {"GBNUM": "GB256"}
+      ]
+    }],
+    "Size": [{
+      "title": "Size and Weight",
+      "src": "./statics/images/techspec/3.png",
+      "sizeDiscrip": [
+        {"discripName": "Height", "discripNum": "5.65 inches (143.6 mm)"},
+        {"discripName": "Width", "discripNum": "2.79 inches (70.9 mm)"},
+        {"discripName": "Depth", "discripNum": "0.30 inch (7.7 mm)"},
+        {"discripName": "Weight", "discripNum": "6.14 ounces (174 grams)"}
+      ]
+    }],
+    "Display": [{
+      "title": "Display",
+      "src": "./statics/images/techspec/4.png",
+      "displayDiscrip": [
+        {"displayContent": "Super Retina HD display"},
+        {"displayContent": "5.8-inch (diagonal) all-screen OLED Multi-Touch display"},
+        {"displayContent": "HDR display"},
+        {"displayContent": "2436-by-1125-pixel resolution at 458 ppi"},
+        {"displayContent": "1,000,000:1 contrast ratio (typical)"},
+        {"displayContent": "True Tone display"},
+        {"displayContent": "Wide color display (P3)"},
+        {"displayContent": "3D Touch"},
+        {"displayContent": "625 cd/m2 max brightness (typical)"},
+        {"displayContent": "Fingerprint-resistant oleophobic coating"},
+        {"displayContent": "Support for display of multiple languages and characters {simultan}ously"}
+      ],
+      "discripLongth": "The iPhone X display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 5.85 inches diagonally (actual viewable area is less)."
+    }],
+    "Splash": {
+      "title": "Splash, Water, and Dust Resistant",
+      "discrip": "Rated IP67 under IEC standard 60529"
+    },
+    "Camera": [{
+      "title": "Camera",
+      "cameraDiscrip": [
+        {"cameraContent": "12MP wide-angle and telephoto cameras"},
+        {"cameraContent": "Wide-angle: ƒ/1.8 aperture"},
+        {"cameraContent": "Telephoto: ƒ/2.4 aperture"},
+        {"cameraContent": "Optical zoom; digital zoom up to 10x"},
+        {"cameraContent": "Portrait mode"},
+        {"cameraContent": "Portrait Lighting (beta)"},
+        {"cameraContent": "Dual optical image stabilization"},
+        {"cameraContent": "Six‑element lens"},
+        {"cameraContent": "Quad-LED True Tone flash with Slow Sync"},
+        {"cameraContent": "Panorama (up to 63MP)"},
+        {"cameraContent": "Sapphire crystal lens cover"},
+        {"cameraContent": "Backside illumination sensor"},
+        {"cameraContent": "Hybrid IR filter"},
+        {"cameraContent": "Autofocus with Focus Pixels"},
+        {"cameraContent": "Tap to focus with Focus Pixels"},
+        {"cameraContent": "Live Photos with stabilization"},
+        {"cameraContent": "Wide color capture for photos and Live Photos"},
+        {"cameraContent": "Improved local tone mapping"},
+        {"cameraContent": "Body and face detection"},
+        {"cameraContent": "Exposure control"},
+        {"cameraContent": "Noise reduction"},
+        {"cameraContent": "Auto HDR for photos"},
+        {"cameraContent": "Auto image stabilization"},
+        {"cameraContent": "Burst mode"},
+        {"cameraContent": "Timer mode"},
+        {"cameraContent": "Photo geotagging"},
+        {"cameraContent": "Image formats captured: HEIF and JPEG"}
+      ]
+    }],
+    "Carriers": {
+      "title": "Carriers",
+      "src": "./statics/images/techspec/carriers.png"
+    },
+    "Cellular": [{
+      "title": "Cellular and  Wireless",
+      "discrip1": "Model A1865*",
+      "discrip2": "Model A1901*",
+      "discrip3": "Model A1901 does not support CDMA networks, such as those used by Verizon and Sprint.",
+      "discrip4": "All models",
+      "cellularContent1": [
+        {"cellularcontent1": "FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 29, 30, 66)"},
+        {"cellularcontent1": "TD-LTE (Bands 34, 38, 39, 40, 41)"},
+        {"cellularcontent1": "TD-SCDMA 1900 (F), 2000 (A)"},
+        {"cellularcontent1": "CDMA EV-DO Rev. A (800, 1900, 2100 MHz)"},
+        {"cellularcontent1": "UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)"},
+        {"cellularcontent1": "GSM/EDGE (850, 900, 1800, 1900 MHz)"}
+      ],
+      "cellularContent2": [
+        {"cellularcontent2": "FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 29, 30, 66)"},
+        {"cellularcontent2": "TD-LTE (Bands 34, 38, 39, 40, 41)"},
+        {"cellularcontent2": "UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)"},
+        {"cellularcontent2": "GSM/EDGE (850, 900, 1800, 1900 MHz)"}
+      ],
+      "cellularContent3": [
+        {"cellularcontent3": "802.11ac Wi‑Fi with MIMO"},
+        {"cellularcontent3": "Bluetooth 5.0 wireless technology"},
+        {"cellularcontent3": "NFC with reader mode"}
+      ]
+    }]
+  },
+  "address": [
+    {
+      "name": "Ms.Avery Tian",
+      "default": true,
+      "address": "219 University Ave, Palo Alto, CA94301",
+      "phone": "+ 86 186 8808 2158"
+    },{
+      "name": "Ms.Avery",
+      "default": false,
+      "address": "306 University Ave, Palo Alto, CA94301",
+      "phone": "+ 86 186 8808 2158"
+    },{
+      "name": "Ms.Avery",
+      "default": false,
+      "address": "306 University Ave, Palo Alto, CA94301",
+      "phone": "+ 86 186 8808 2158"
+    }
+  ]
+}

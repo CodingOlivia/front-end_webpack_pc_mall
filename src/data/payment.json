@@ -1,0 +1,66 @@
+{
+	"data":{
+		"selectOptions": [
+			{
+				"id": 0,
+				"label": "Apple Pay",
+				"value": "1",
+				"image": "statics/images/Payment/Apple_Pay.png"
+			},
+			{
+				"id": 1,
+				"label": "Credit Debit Card",
+				"value": "1",
+				"image": "statics/images/Payment/Credit_Debit_Card.png"
+			},
+			{
+				"id": 2,
+				"label": "Bank",
+				"value": "0",
+				"image": "statics/images/Payment/Bank.png"
+			},
+			{
+				"id": 3,
+				"label": "PayPal",
+				"value": "0",
+				"image": "statics/images/Payment/paypal.png"
+			},
+			{
+				"id": 4,
+				"label": "Amazon",
+				"value": "0",
+				"image": "statics/images/Payment/amazon.png"
+			},
+			{
+				"id": 5,
+				"label": "Android pay",
+				"value": "0",
+				"image": "statics/images/Payment/Android_pay.png"
+			},
+			{
+				"id": 6,
+				"label": "Cirrus",
+				"value": "0",
+				"image": "statics/images/Payment/cirrus.png"
+			},
+			{
+				"id": 7,
+				"label": "Skrill",
+				"value": "0",
+				"image": "statics/images/Payment/skrill.png"
+			},
+			{
+				"id": 8,
+				"label": "Bitcoin",
+				"value": "0",
+				"image": "statics/images/Payment/bitcoin.png"
+			},
+			{
+				"id": 9,
+				"label": "Ebay",
+				"value": "0",
+				"image": "statics/images/Payment/ebay.png"
+			}
+		]
+	}
+}

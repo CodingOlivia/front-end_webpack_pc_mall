@@ -1,0 +1,121 @@
+.y-card
+    .list-box
+        margin 0 -12px
+        padding 0
+        .list-item
+            margin 0
+            padding 0
+            padding 0.9375rem
+            list-style none
+            .item-wrap
+                position relative
+                border 1px solid #e5e5e5
+                width 100%
+                height 24rem
+                &.active
+                    border 2px solid $all-color-1
+            .del-btn
+                display none
+                position absolute
+                right 1.5rem
+                top 1.5rem
+                height 2.625rem
+                width 2.625rem
+                border-radius 50%
+                cursor pointer
+                background $all-color-1 url("~statics/wishlist/del.png") no-repeat center center
+            .img-wrap
+                display flex
+                justify-content center
+                align-items center
+                width 100%
+                height 17.625rem
+                padding 16px
+                img
+                    max-width 100%
+                    max-height 100%
+            .proinfo
+                .protitle
+                    width 100%
+                    overflow hidden
+                    white-space nowrap
+                    text-overflow ellipsis
+                    font-size 18px
+                    color $all-color-1
+                    text-align center
+                    font-weight bold
+                    line-height 1
+                    margin-top 1.5rem
+                    margin-bottom 14px
+                p
+                    width 100%
+                    text-align center
+                    margin-bottom 0
+                    font-size 16px
+                    color $all-color-1
+                    font-weight bold
+                    .proprice
+                        margin-right 10px
+                    .pro-category
+                        opacity 0.4
+                        font-family HelveticaNeue-Medium
+                .off-btn
+                    position absolute
+                    bottom 0
+                    left 0
+                    width 100%
+                    padding 16px
+                    font-size 16px
+                    color #fff
+                    text-align center
+                    background-color $all-color-1
+                    cursor pointer
+            .card-mask
+                display flex
+                position absolute
+                left 0
+                top 0
+                width 100%
+                height 100%
+                background-color #fff
+                opacity 0.9
+                flex-direction column
+                align-items center
+                justify-content center
+                p
+                    color $all-color-1
+                    font-weight bold
+                    font-size 20px
+                    margin-bottom 36px
+                    text-align center
+                .btn
+                    display inline-block
+                    height 56px
+                    width 56px
+                    background-color $all-color-1
+                    border-radius 50%
+                    cursor pointer
+                .btn-ok
+                    background $background-color-4 url("~statics/wishlist/ok.png") no-repeat center center
+                    margin-right 40px
+                .btn-cancel
+                    background $all-color-1 url("~statics/wishlist/cancel.png") no-repeat center center
+            &:hover
+                .del-btn
+                    display block
+                .item-wrap
+                    border 2px solid $all-color-1
+.no-data
+    width 100%
+    height 590px
+    background-color #f7f7f7
+    position relative
+    display flex
+    justify-content center
+    align-items center
+    .img-wrap
+        text-align center
+        p
+            margin-top 45px
+            color #c1c0bf
+            font 18px HelveticaNeue-Medium

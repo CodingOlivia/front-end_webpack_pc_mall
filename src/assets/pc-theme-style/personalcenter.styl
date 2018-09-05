@@ -1,0 +1,483 @@
+.MyCommerce.main
+    display flex
+    justify-content center
+    flex-direction column
+    width calc(1536/1920*100vw)
+    font-family HelveticaNeue
+.o-nav
+  width 100%
+  padding: 0 0 0 2%
+  position relative
+  .q-tabs-head
+    padding: 0
+  .q-tabs-panes
+    width 100%!important
+  .q-tab-label
+    color $all-color-3
+    font-weight 600
+    font-family HelveticalNeue
+    font-size 14px
+    letter-spacing 0
+    &:hover
+      color $all-color-1
+  .active
+    .q-tab-label
+      color $all-color-1
+  .y-tab-pane
+    padding 0
+    border 0
+  .nav-list
+    font-size 16px
+    color #2c2c2c
+    text-transform capitalize
+    margin-right 24px 
+    padding 0!important
+    font-weight 600
+    .q-ripple-container
+        display none
+    .q-chip
+      min-height 16px
+      min-width 16px
+      padding 0 2px
+      top 8px
+      right -16px!important
+      justify-content center
+      background-color #6dd6a9
+      .q-chip-main
+        padding 1px
+        font-size 12px
+  .nav-button
+    display inline-block
+    font-size 14px
+    cursor pointer
+    color #6abcfc
+    line-height 3
+    font-weight 600
+    position absolute
+    right 0
+    top 9px
+    z-index 2
+    .order
+        .orderTbody:last-child
+            border-bottom none
+    .orderTbody
+        border-bottom 1px solid $border-color-1 
+    .search-hot
+        display flex
+        padding 0 0 0 2%
+        flex-direction column
+    .hot-top
+        padding 20px 0
+        display flex
+        justify-content space-between
+        font-size 12px
+        .hot-left
+            display flex
+            align-items center
+        span
+            font-size calc(24/1920*100vw)
+            font-weight bold
+        .q-if
+            padding 0
+            margin 0
+        .hot-right
+            display flex
+            align-items center
+        .hot-right-btn-left
+            cursor pointer
+            width calc(36/1920*100vw)
+            height calc(36/1920*100vw)
+            background $all-color-1
+            border-radius 50px
+            color $all-color-2
+            display flex
+            align-items center
+            justify-content center
+            margin-right calc(20/1920*100vw)
+            font-size calc(14/1920*100vw)
+            min-width 24px
+            min-height 24px
+            opacity 0.5
+            &.active
+                opacity 1
+        .hot-right-btn-right
+            cursor pointer
+            width calc(36/1920*100vw)
+            height calc(36/1920*100vw)
+            background $all-color-1
+            border-radius 50px
+            color $all-color-2
+            display flex
+            align-items center
+            justify-content center
+            font-size calc(14/1920*100vw)
+            min-width 24px
+            min-height 24px
+            opacity 0.5
+            &.active
+                opacity 1
+        span
+            padding 0 12px
+            display none
+    .hot-main
+        width 100%
+        display flex
+        justify-content flex-start
+        align-items center
+        margin 0 0 6% 0
+        .hot-box:hover
+          border 1px solid #000
+        .hot-box
+          display inline-block
+          float left
+          height 100%
+          border 1px solid #c5c5c5
+          margin-right calc(32/1920*100vw)
+        .offering-box
+            display flex
+            flex-direction column
+            align-items center
+            justify-content flex-start
+            width 100%
+            .offering-img
+              width calc(270/1920*100vw)
+              display flex
+              justify-content center
+              align-items flex-start
+            img
+                width 100%
+            .offering-text
+              margin: 4% 2% 10% 2%
+              width 100%
+              display flex
+              align-items center
+              flex-direction column
+            .offering-name
+                width 100%
+                font-size calc(18/1920*100vw)
+                color $all-color-1
+                text-align center
+                font-weight bold
+            .offering-price
+                width 100%
+                font-size calc(16/1920*100vw)
+                color $all-color-1
+                margin 0
+                display flex
+                align-items center
+                justify-content center
+            p
+                letter-spacing 0
+                margin 0
+                line-height 2
+                padding 0
+  .layout-page
+    flex-direction: column
+    .layout
+      position relative !important
+  .layout-page-container
+    padding-right: 64px
+  .q-tabs-panes
+    width calc(338/1920*100vw)
+  .myorder-search
+    width calc(338/1920*100vw)
+    height calc(48/1920*100vw)
+    border 1px solid $border-color-1 
+    color $border-color-1 
+    font-size calc(16/1920*100vw)
+  .q-toolbar-title
+    display flex
+    justify-content center
+    align-items flex-start
+    width 100%
+    flex-wrap wrap
+  .payment-header
+    background $all-color-2
+    width 100%
+    display flex
+    justify-content center
+  .payment-method
+    width 88%
+    .payment-font
+      color #2c2c2c
+      font-size calc(24/1920*100vw)
+  .payment-hr
+    height 1px
+    background #eaeaea
+    width 90%
+    margin 1% 0 0 0
+  .layout-aside-left
+    width calc(318/1920*100vw)
+  .q-item.active,
+  .q-item.router-link-active,
+  .q-item:focus 
+    background rgba(0,0,0,0)
+  .myorder-left
+    overflow hidden
+    color $all-color-3
+    background rgba(0,0,0,0)
+    font-size calc(14/1920*100vw)
+  .myorder-list
+    margin-left calc(64/1920*100vw)
+    font-size calc(16/1920*100vw)
+  .myorder-title
+    color $all-color-1
+    font-size calc(24/1920*100vw)
+    margin-left calc(64/1920*100vw)
+    padding-top 2.6%
+  .q-tabs-head
+    background rgba(0,0,0,0)
+    color #2c2c2c
+  .q-tab-label
+    opacity 1.0
+  .layout-header
+    box-shadow 0 0 0 white
+  .q-tabs-normal .q-tabs-bar
+    color #2c2c2c
+  .q-tabs-bar
+    display none
+  .q-tabs-head
+    min-height 32px
+    margin 0.6% 0 0 0
+  .q-if-control
+    font-size calc(24/1920*100vw)
+    color #777777
+    opacity 1.0
+  .q-if-control:hover
+    opacity 1.0
+  .q-if:before
+    display none
+  .q-if:after
+    display none
+  .q-if
+    margin 0 0 0 0
+    color $border-color-1 
+  .q-item-label:hover
+    color $all-color-1
+  .order
+    display flex
+    justify-content center
+    flex-direction column
+    width 100%
+    border 1px solid $border-color-1 
+    span
+      white-space nowrap
+      letter-spacing .5px
+      font-size 14px
+  .title
+    height 46px
+    line-height 46px
+    width 100%
+    border-bottom 1px solid $border-color-1 
+    padding 0 32px 0 32px
+    font-size 14px
+    background-color $background-color-5
+    display flex
+    justify-content space-between
+    strong
+      font-weight bold
+    span
+      border none
+      color $font-color-4
+      background none
+      cursor pointer
+      font-weight 600
+  .orderItem
+    border-bottom 1px solid $border-color-1 
+  .orderItem:last-child
+    border-bottom none
+  .head
+    width calc(1534/1920*100vw - 93px)!important
+    // min-width 870px
+    display flex
+    justify-content flex-start
+    // align-items stretch
+    line-height 48px
+    height 48px
+    flex-wrap no-wrap
+    font-weight 600
+    // width 100%
+    margin 0px 32px 0 32px
+    border-bottom 1px solid $border-color-1 
+  .item1-left
+    // width calc(320/1920*100vw)
+    width 280px
+    flex-shrink 0
+    // min-width 200px
+    text-align left
+  .item1-title1
+    color $all-color-3
+    font-size calc(14/1920*100vw)
+    min-height 20px
+  .item1-data
+    color $font-color-5
+    font-size calc(14/1920*100vw)
+    margin-right calc(56/1920*100vw)
+    min-height 20px
+  .item1-delete
+    color $font-color-4
+    font-size calc(14/1920*100vw)
+    font-weight 600
+    &.col-b
+      color $all-color-3
+  .item1-cancel
+    width calc(170/1920*100vw)
+    cursor pointer
+    white-space nowrap
+    display flex
+    flex-shrink 0
+    justify-content flex-end
+    align-items center
+  .item1-online
+    width 100%
+    // min-width 100px
+    text-align left
+    // width calc(740/1920*100vw)
+    // width calc(1300/1920*100vw - 560px)
+  .body
+    display flex
+    justify-content flex-start
+    min-height 20px
+    line-height 0.8
+    width 94%
+    margin-left 3%
+  .first-table-td
+    display flex
+    justify-content flex-start
+    align-items center
+    flex-direction column
+    min-height 20px
+    line-height 0.8
+    width 62%
+    border-right: 1px solid $border-color-1 ;
+  .item-product
+    display flex
+    justify-content flex-start
+    align-items center
+    min-height 20px
+    line-height 0.8
+    width 100%
+  .item-product:last-child
+    >.item-font
+      border none
+  .item-font
+    display flex
+    justify-content flex-start
+    align-items center
+    min-height 20px
+    line-height 1
+    margin-top calc(16/1920*100vw)
+    margin-bottom calc(16/1920*100vw)
+    width 100%
+    padding-bottom calc(20/1920*100vw)
+    border-bottom 1px solid $border-color-1 
+  .item2-img
+    width 7%
+    min-width 84px
+    padding-bottom calc(18/1920*100vw)
+  .item2-text
+    width 48%
+    min-width 130px
+  .item2-div
+    line-height 12px
+    .item2-name
+      font-size calc(14/1920*100vw)
+      font-weight bold
+      color $all-color-1
+      line-height 2.4
+    .item2-data
+      font-size calc(12/1920*100vw)
+      color $font-color-5
+  .item2-text2
+    width 13%
+    min-width 86px 
+    line-height 1
+    text-align right
+  .item2-Upfront
+    font-size calc(14/1920*100vw)
+    font-weight bold
+    color $font-color-5
+  .item2-price
+    font-size calc(12/1920*100vw)
+    color $all-color-1
+  .item2-text3
+    width 22%
+    min-width 86px 
+    line-height 1
+    text-align right
+    padding-right calc(20/1920*100vw)
+  .item2-text4
+    width 16%
+    min-width 46px 
+    line-height 1
+    text-align center
+  .item2-Number
+    font-size calc(14/1920*100vw)
+    color #747474
+    font-weight 600
+  .second-table-td
+    display flex
+    justify-content center
+    align-items center
+    min-height 100%
+    line-height 1.4
+    width 15%
+    border-right 1px solid #e4e4e4
+  .test
+    border-right 1px solid red
+    width 0px
+    height 100%
+    flex 0
+  .total-price
+    padding-bottom calc(18/1920*100vw)
+  .total-price-text
+    font-size calc(14/1920*100vw)
+    color $font-color-5
+  .total-price-price
+    font-size calc(24/1920*100vw)
+    color $all-color-1
+    font-weight bold
+  .third-table-td
+    display flex
+    justify-content center
+    align-items center
+    min-height 100px
+    line-height 1.4
+    width 24%
+    text-align center
+  .third-payment
+    padding-bottom calc(18/1920*100vw)
+    display flex
+    flex-direction column
+    justify-content center
+    align-items center
+  .third-payment-text
+    font-size calc(14/1920*100vw)
+    color $font-color-5
+    line-height 4
+  .third-payment-view
+    font-size calc(14/1920*100vw)
+    color $font-color-4
+    line-height 4
+    cursor pointer
+    font-weight 600
+  .third-payment-view2
+    font-size calc(14/1920*100vw)
+    color $font-color-4
+    line-height 0
+    margin-top 16px
+    font-weight 600
+  .third-payment-btn
+    background $background-color-4
+    color $all-color-2
+    width calc(180/1920*100vw)
+    min-width 72px
+    min-height 24px
+    height calc(32/1920*100vw)
+    font-size calc(14/1920*100vw)
+    border-radius 50px
+    box-shadow 0 0 0 white
+  .third-payment-text2
+    font-size calc(14/1920*100vw)
+    color $font-color-5
+    line-height 0

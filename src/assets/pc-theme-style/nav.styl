@@ -1,0 +1,26 @@
+html[app='desktop'], html[app='desktop'] body
+  font-family $pc_normal_font
+html[app='desktop'] body
+ .navTop 
+   &.nav-top-white
+      .q-tabs-left
+        .q-tab 
+           >.blackBottom-white
+             width 124px
+             height 24px
+             margin-top 8px
+             border-radius 2px
+             background url('~statics/Commerce-white.png') top center no-repeat
+      .tabBtn
+        .on-left
+           background url('~statics/images/Homepage/search1-white.png') top center no-repeat
+      .q-tabs-logo
+         .q-tab 
+            >img:nth-last-child(2)
+                display none
+      .q-tabs-logo:hover 
+         .q-tab 
+            >img:nth-last-child(1)
+              display none
+            >img:nth-last-child(2)
+              display block

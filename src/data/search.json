@@ -1,0 +1,18 @@
+{
+	"data":[{
+		"title":"Most popular",
+		"type":"searchPopular",
+		"value": [
+			"Mate 10",
+			"iPhone X",
+			"iPhone 8",
+			"Mate"
+		]
+	},{
+		"title":"History",
+		"type":"searchHistory",
+		"value": [
+			"Mate 10"
+		]
+	}]
+}

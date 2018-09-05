@@ -1,0 +1,19 @@
+{
+	"data":{
+		"selectOptions": [
+			{
+				"id": 0,
+				"label": "PayPal",
+				"value": "paypal",
+				"image": "statics/images/Payment/paypal.png"
+			},
+			{
+				"id": 1,
+				"label": "Bitcoin",
+				"value": "bitcoin",
+				"image": "statics/images/Payment/bitcoin.png"
+			}
+			
+		]
+	}
+}

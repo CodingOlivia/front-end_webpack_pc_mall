@@ -1,0 +1,227 @@
+.iwinreg-widget-wrap
+  .bg-line
+    height 8px
+    background #f0f0f0
+  .login-widget-box
+    width 700px
+    margin 0 auto
+    .header-wrap
+      display flex
+      align-items center
+      justify-content center
+      margin 30px 0 80px
+      .header-wrap-title
+        font-size 18px
+        color fc3
+        font-family Roboto-Medium
+        margin-left 28px
+    .content-wrap
+      .content-wrap-nav
+        display flex
+        justify-content center
+      .content-wrap-item
+        border-bottom 4px solid #f0f0f0
+        color #999999
+        font-size 14px
+        font-family Roboto-Regular
+        padding 0 8px 8px
+        cursor pointer
+        font-weight 700
+        &.selected
+          color #0c0c0c
+          border-bottom 4px solid #7a8599
+      .content-wrap-list
+        width 460px
+        margin 95px auto 0
+        .input-group
+          margin-bottom 16px
+          position relative
+          &.drg
+            display flex
+            justify-content space-between
+          .close
+            position absolute
+            right 10px
+            top 10px
+            display inline-block
+            width 20px
+            height 20px
+            background url("~statics/images/login/l-close.png") no-repeat center
+            background-size 100% 100%
+            cursor pointer
+          input
+            width 100%
+            height 40px
+            font-size 12px
+            color #999999
+            border 1px solid #cccccc
+            &.focus
+              border 1px solid #666666 !important
+              color #333333 !important
+          .code
+            position absolute
+            right 10px
+            top 7px
+            width 65px
+            height 24px
+          .input-group-left
+            width 312px
+          .input-group-right
+            width 135px
+            height 40px
+            line-height 40px
+            color fc6
+            font-size 12px
+            text-align center
+            border 1px solid #999999
+            &.selected
+              font-size 14px
+              border 1px solid #038cd6
+              color #038cd6
+            &.font
+              border 1px solid #999999
+              font-size 14px
+  .foot-wrap
+    width 460px
+    margin 0 auto
+    padding-top 14px
+    .login-btn
+      height 40px
+      text-align center
+      line-height 40px
+      color #ffffff
+      background #000
+      border-radius 4px
+      cursor pointer
+    .register
+      color #00a4fc
+      font-size 12px
+      font-family Roboto-Regular
+    .skip
+      color #00a4fc
+      font-family Roboto-Regular
+      font-size 12px
+      margin-top 18px
+      text-align right
+      cursor pointer
+
+@media (max-width: 1440px) and (min-width: 768px)
+  .pc-login
+    .login
+      padding 16px 0 16px 0
+      min-height 520px
+      right 5%
+      top 8%
+      transform scale(0.9)
+      .login-contain
+        .logo-panel
+          display none
+        .input-group
+          .input-dom
+            input
+              font-size 14px
+
+
+.iwin-pc-input
+  margin-bottom 22px
+  position relative
+  .points
+    position absolute
+    bottom 50px
+    width 250px
+    padding 16px
+    background #fff
+    border 1px solid #cccccc
+    border-radius 2px
+    &:before
+      content ' '
+      display block
+      width 10px
+      height 10px
+      background #fff
+      position absolute
+      bottom -5px
+      left 125px
+      transform  rotate(45deg)
+      border-bottom 1px solid #ccc
+      border-right 1px solid #ccc
+    .points-title
+      margin-bottom 3px
+
+    p
+      font-size 12px
+      color #666
+      margin-bottom 0
+      line-height 20px
+      &.active
+        color #5fb870
+      span
+        margin-left 3px
+  input
+    border 1px solid #cccccc !important
+    height 40px
+    line-height 40px
+    font-size 12px
+    border-radius 3px
+    padding-right 40px
+    width 100%
+    padding-left 10px
+    &.focus
+      border 1px solid #666
+      color #333
+  .pc-input-code
+    flex 1
+  .close
+    position absolute
+    width 20px
+    height 20px
+    display inline-block
+    top 10px
+    right 10px
+    background url('~statics/images/login/l-close.png') center no-repeat
+    background-size 100%
+    cursor pointer
+  &.error
+    input
+      border 1px solid #e50017
+      color #e50017
+  .errMessage
+    position absolute
+    font-size 12px
+    color #e50017
+    top 100%
+    left 0
+  .code
+    position absolute
+    right 10px
+    top 7px
+    width 65px
+    height 24px
+  .ver-btn
+    display inline-block
+    min-width 135px
+    border 1px solid #ccc
+    margin-left 10px
+    text-align center
+    white-space nowrap
+    height 40px
+    line-height 40px
+    color #333
+    font-size 12px
+    padding 0 4px
+    border-radius 3px
+    cursor pointer
+    outline none
+    background-color #fff
+    &:hover
+      border 1px solid #000
+      color #000
+    &:disabled
+      border 1px solid #c1c1c1 !important
+      color #333 !important
+      background-color #f5f5f5
+    &[disabled]:hover
+      border 1px solid #c1c1c1 !important
+      color #333 !important
+  .input-item
+    display flex

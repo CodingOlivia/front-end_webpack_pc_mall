@@ -1,0 +1,65 @@
+{
+  "package": [
+    {
+      "packageType": "Mobile Kit",
+      "packageUpfrontTotal": 0,
+      "packageMonthlyTotal": 0,
+      "packageItem": [
+        {
+          "packageItemImgUrl": "./statics/phone.png",
+          "packageItemName": "Apple iPhone X + 198 Bundle",
+          "packageItemPrice": 1149,
+          "packageItemPriceNumber": 1149,
+          "packageItemUpfront": 1149,
+          "packageItemMonthly": 0,
+          "packageItemNumber": 1,
+          "packageItemTax": 0,
+          "packageItemDiscount": 0,
+          "packageItemType": "Device",
+          "packageItemDetail1": "Memory: 256 GB, Primary: 198 Bundle, Color: Space gray",
+          "packageItemDetail2": "Delivery: In Stock",
+          "packageItemDetail3": "Memory: 256 GB",
+          "packageItemDetail4": "Primary: 198 Bundle",
+          "packageItemDetail5": "Color: Space gray",
+          "packageItemIcon": "./statics/D.png"
+        },
+        {
+          "packageItemImgUrl": "./statics/phone2.png",
+          "packageItemName": "198 Bundle",
+          "packageItemPrice": 198,
+          "packageItemPriceNumber": 198,
+          "packageItemUpfront": 0,
+          "packageItemMonthly": 198,
+          "packageItemNumber": 1,
+          "packageItemTax": 0,
+          "packageItemDiscount": 0,
+          "packageItemType": "Plan",
+          "packageItemDetail1": "Voice 300 min, SMS: unlimited, Data: 20 GB",
+          "packageItemDetail2": "",
+          "packageItemDetail3": "Voice: 300 min",
+          "packageItemDetail4": "SMS: unlimited",
+          "packageItemDetail5": "Data: 20 GB",
+          "packageItemIcon": "./statics/P.png"
+        }
+      ]
+    }
+  ],
+  "item": [
+    {
+      "itemImgUrl": "./statics/phone3.png",
+      "itemName": "Apple iPhone X + 198 Bundle",
+      "itemPrice": 12,
+      "itemUpfront": 12,
+      "itemMonthly": 0,
+      "itemNumber": 1,
+      "itemTax": 0,
+      "itemDiscount": 0,
+      "itemType": "Device",
+      "itemDetail1": "Memory: 256 GB, Primary: 198 Bundle, Color: Space gray",
+      "itemDetail2": "Delivery: In Stock",
+      "itemDetail3": "Memory: 256 GB",
+      "itemDetail4": "Primary: 198 Bundle",
+      "itemDetail5": "Color: Space gray"
+    }
+  ]
+}

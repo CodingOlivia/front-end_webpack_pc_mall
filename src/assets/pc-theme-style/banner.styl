@@ -1,0 +1,222 @@
+.popup-wrap-iwinad
+  width 790px
+  border 1px solid #999999
+  border-radius 5px
+  height auto
+  position absolute
+  left 50%
+  top 50%
+  transform: translate(-50%, -50%)
+  background #ffffff
+  z-index 1000
+  .popup-header
+    background-color #6a7782
+    height 40px
+    line-height 40px
+    color #ffffff
+    font-size 18px
+    padding-left 20px
+    position relative
+    .popup-close-btn
+      display inline-block
+      height 16px
+      width  16px
+      position absolute
+      top 12px
+      right 20px
+      background url("~statics/images/contentCarousel/popupclose.png") no-repeat center
+  .popup-content-wrap
+    padding 0px 10px 20px 20px
+    position relative
+    .popup-prompt
+      padding 20px 0px
+      border-bottom 1px solid #e5e5e5
+      display flex
+      .popup-prompt-icon
+        display inline-block
+        height 20px
+        width  20px
+        background url("~statics/images/contentCarousel/warning.png") no-repeat center
+        margin-right 12px
+    .popup-content-imglist
+      padding-top 16px
+      .imglist-wrap
+        display flex
+        flex-wrap wrap
+        li
+          position relative
+          margin-right 10px
+          margin-bottom 10px
+          .single-img
+            width 177px
+            height 100px
+          &
+            .mask
+              display none
+          &.selected
+            .mask
+              display block
+              .mask-wrap
+                display none
+              &.active
+                .mask-wrap
+                  display block
+          .img-sort
+            padding 10px 0px
+            font-size 12px
+            text-align center
+          .mask
+            position absolute
+            top 0
+            left 0
+            height 98px
+            width 178px
+            text-align center
+            background-color rgba(0,0,0,0.1)
+            .mask-close
+              position absolute
+              top -8px
+              right -8PX
+              height 16px
+              width 16px
+              background url("~statics/images/contentCarousel/mask_close.png") no-repeat center
+            .mask-wrap
+              padding-left 10px
+              .mask-text
+                color #ffffff
+                font-size 12px
+                margin-top 20px
+              .mask-btn-wrap
+                margin-top 10px
+                .mask-btn
+                  margin-right 10px
+      .img-add
+        border 1px dashed #e5e5e5
+        width 180px
+        height 100px
+        background url("~statics/images/contentCarousel/image-add.png") no-repeat center
+    .popup-btn
+      .popup-btn-wrap
+        display flex
+        justify-content flex-end
+        .popup-page-btn
+          margin-right 10px
+.pu-popup-wrap
+  width 792px
+  border 1px solid #e5e5e5
+  border-radius 5px
+  height auto
+  .pu-popup-header
+    background-color #6a7782
+    height 40px
+    line-height 40px
+    color #ffffff
+    font-size 18px
+    padding-left 20px
+    position relative
+    .pu-popup-close-btn
+      display inline-block
+      height 16px
+      width  16px
+      position absolute
+      top 12px
+      right 20px
+      background url("~statics/images/contentCarousel/popupclose.png") no-repeat center
+  .pu-popup-content-wrap
+    padding 0px 10px 20px 20px
+    position relative
+    .prompt-input-wrap
+      border-bottom 1px solid #e5e5e5
+      padding-bottom 30px
+      .pu-popup-prompt
+        padding 20px 0px 20px 60px
+        background url("~statics/images/contentCarousel/warning-big.png") no-repeat left
+      .pu-popup-gp-input
+        display flex
+        margin-top 20px
+        .input-wrap
+          padding-right 20px
+          border-right 1px solid #e5e5e5
+          margin-right 20px
+          input[type="text"]
+            border 1px solid #e5e5e5
+            width 190px
+            height 30px
+            margin-right 12px
+          .pu-popup-btn
+            width 60px
+            height 30px
+        .pu-upload-btn
+          width 145px
+          height 30px
+          background-color #e50017
+          border-radius 2px
+          padding 5px 14px
+          .btn-text
+            font-size 14px
+            color #ffffff
+            font-weight bold
+            margin-right 5px
+            &::-webkit-input-placeholder
+              color #e5e5e5
+            &:-moz-placeholder
+              color #e5e5e5
+            &::-moz-placeholder
+              color #e5e5e5
+            &:-ms-input-placeholder
+              color #e5e5e5
+          i
+            display inline-block
+            width 16px
+            height 16px
+            background url("~statics/images/contentCarousel/upload.png") no-repeat center
+    .image-added-wrap
+      .image-added-title
+        padding 20px 0px
+        font-size 16px
+      .image-added-content
+        display flex
+        flex-wrap wrap
+        .single-image-added
+          margin-right 10px
+          display flex
+          border 1px solid #e5e5e5
+          padding 10px 10px
+          height 60px
+          width 180px
+          .single-right
+            margin-left 10px
+            .image-name
+              font-size 12px
+            .upload-schedule
+              margin-top 12px
+              .progress-bar
+                float left
+                width 80px
+                height 10px
+              .schedule-bar
+                float left
+                font-size 12px
+                color #999999
+              .per-schedule
+                float right
+                font-size 12px
+                color #999999
+    .pu-popup-submit-btn
+      text-align center
+      margin-top 20px
+
+.banner-wrap
+  .display-box-panel
+    height 435px
+  .display-box
+    width 100%
+  .banner-show
+    width 100%
+    height 435px
+  .toolbar-right
+    z-index 500
+    top 10%!important
+  .panel-main-iwinad
+    max-height 395px
+    overflow-y auto

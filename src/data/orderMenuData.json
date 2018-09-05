@@ -1,0 +1,44 @@
+{
+  "orderMenuData": [
+    {
+      "uuid": 1,
+      "name":"Personal Center",
+      "to": "/Order/commerce"
+    },
+    {
+      "uuid": 2,
+      "name":"Notification",
+      "to": "/Order/Commerce#2"
+    },
+    {
+      "uuid": 3,
+      "name":"My Order",
+      "to": "/Order/MyOrder/AllOrders"
+    },
+    {
+      "uuid": 4,
+      "name":"My Account",
+      "to": "/Order/Commerce#3"
+    },
+    {
+      "uuid": 5,
+      "name":"Favorites",
+      "to": "/Order/Favorites"
+    },
+    {
+      "uuid": 6,
+      "name":"Browsing History",
+      "to": "/Order/Mybrowsinghistorypage"
+    },
+    {
+      "uuid": 7,
+      "name":"My Comments",
+      "to": "/Order/Commerce#6"
+    },
+    {
+      "uuid": 8,
+      "name":"Customer Service",
+      "to": "/Order/Commerce#7"
+    }
+  ]
+}

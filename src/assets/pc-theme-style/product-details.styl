@@ -1,0 +1,286 @@
+.product-detail-wrap
+   margin-top 88px
+   width 100%
+   .q-rating
+      i 
+        font-size 0
+        width 20px
+        height 20px
+        background url('~statics/images/orderReview/icon-start.png')  no-repeat center
+        opacity 1
+        &.active
+           background url('~statics/images/orderReview/icon-start-active.png') no-repeat center
+   .main
+      width 80%
+      margin 0 auto
+      min-width 900px
+   .rateInfo
+      border-top 1px solid $border-color-1
+      font-size 16px
+      background $background-color-5
+      padding 20px 0
+      .rateInfo-inner
+         width 80%
+         margin 0 auto
+         min-width 900px
+      .rateInfo-left
+         text-align center
+         border-right 1px solid $border-color-1
+         font-family HelveticaNeue-Medium
+         padding-left 0
+         width 310px
+         .inner-right
+            font-size 64px
+            margin-left calc(48/1920 * 80vw)
+      .rateInfo-right
+        padding 32px 0 4px 74px
+        .item-wrapper
+          padding-right 48px
+          margin-bottom 28px
+          .q-progress
+            height 10px!important
+            border-radius 6px
+            color #6dd6a9
+            .q-progress-track
+              background #e6e6e6
+              opacity 1
+              min-width 100px
+    .tab-box
+      padding-left 10px
+      margin-top 32px
+      .nav-tab
+        margin-right 36px
+        margin-bottom 12px
+        font-weight bold
+        color #b2b2b2
+        cursor pointer
+        .active
+          color #252525
+   .product-detail-list
+      border-top 1px solid $border-color-1
+      border-bottom 1px solid $border-color-1
+      margin-top 10px
+      .product-detail-item
+         padding 32px 0
+         position relative
+         &:after
+            content ''
+            display block
+            border-bottom 1px solid $border-color-1
+            left 20px
+            bottom 0
+            position absolute
+            width calc(100% - 68px)
+         &:last-child
+            &:after 
+               opacity 0
+         .product-detail-left
+            padding 0 30px
+            text-align center
+            width 200px
+            .product-detail-img
+                height 64px
+                text-align center
+                span
+                  height 64px
+                  width 64px
+                  display inline-block
+                img
+                  height 100%
+                  width 100%
+                  border-radius 50%
+            .product-detail-title
+                font-size 14px
+                font-family HelveticaNeue-Medium
+                margin-top 16px
+                color #666
+            .product-detail-props
+                color $font-color-5 
+                span
+                  margin-right 20px
+                  font-size 12px   
+      .product-detail-right
+          padding-right 48px
+          position relative
+          padding-left 10px
+          .product-detail-message
+            line-height 1.6
+            padding-right 98px
+            margin-top .4rem
+          .product-detail-props
+            margin-top 12px
+            color #666
+            font-size 14px
+          .product-big-pic
+              max-height 500px
+              margin-top 16px
+              display inline-block
+              .big-pic-wrap
+                max-width 100%
+                max-height 100%
+                position relative
+                img
+                  max-width 100%
+                  max-height 100%
+                .p-left
+                  position absolute
+                  width 30%
+                  height 100%
+                  display block
+                  top 0
+                  left 0
+                  cursor pointer
+                .p-right
+                  position absolute
+                  width 30%
+                  height 100%
+                  display block
+                  top 0
+                  right 0
+                  cursor pointer
+                .p-center
+                  position absolute
+                  width 40%
+                  height 100%
+                  display block
+                  top 0
+                  left 30%
+                  cursor pointer
+          .product-detail-pics
+              margin-top 30px
+              .product-detail-pic
+                   width 80px
+                   height 80px
+                   position relative
+                   display block
+                   margin-right 16px
+                   cursor pointer
+                   &.active
+                     box-shadow 0 0 15px #999
+                   i 
+                     width 24px
+                     height 24px
+                     position absolute
+                     display block
+                     right -8px
+                     top -8px
+                     cursor pointer
+                     background url('~statics/images/orderReview/icon-delete.png') no-repeat center
+                  
+                   img 
+                      width 100%
+                      height 100%
+                   input
+                      opacity 0
+                      width 100%
+                      height 100%
+                      position absolute
+                      top 0
+                      left 0
+                      cursor pointer
+              .message-tip
+                 margin-left 16px
+                 font-size 12px
+                 color $all-color-3
+          .svc-text
+            margin-top 30px
+            padding 28px 24px
+            background-color $background-color-3
+            .text-content 
+              word-break break-all
+              margin-bottom 0
+              line-height 1.6
+              margin-top 6px
+    .p-wrapper
+      display flex 
+      justify-content center 
+      padding-top 52px
+      padding-bottom 135px
+html[app='desktop'], html[app='desktop'] body
+  font-family $pc_normal_font
+html[app='desktop'] body
+  .scroll-box
+    &.productOff
+       &>div
+          position relative
+          &:before
+              content ''
+              display block
+              width 100%
+              height 100%
+              top 0
+              right 10px
+              background rgba(255,255,255,.6)
+              z-index 1
+              position absolute
+          .ProBox6
+             .itemNumber
+                 .ProNumber
+                    background #e5e5e5
+    .ProBox6
+        width 100%
+        display flex
+        flex-direction column
+        justify-content flex-start
+        padding 12px 0 24px
+        .ProBox6-title
+          color $font-color-5
+          font-size 14px
+          font-weight bold
+          padding 0 10px 10px
+          width 100%
+        .itemNumber
+          display flex
+          flex-direction row
+          padding 0 10px
+          .ProNumber
+            width 80px
+            height 48px
+            border 1px solid $border-color-1
+            text-align center
+            font-size 14px
+            border-width 1px 0 1px 0
+          .btn-min
+            border 1px solid $border-color-1
+            border-radius 6px 0 0 6px
+            
+            display flex
+            align-items center
+            &.disable>i
+              opacity .5
+            i
+              margin 0 12px
+              width 24px
+              height 24px
+              cursor pointer
+              background url("~statics/images/ProductContent/min.png") center / 100% no-repeat
+          .btn-add
+            border 1px solid $border-color-1
+            border-radius 0 6px 6px 0
+            display flex
+            align-items center
+            i
+              margin 0 12px
+              width 24px
+              height 24px
+              cursor pointer
+              background url("~statics/images/ProductContent/add.png") center / 100% no-repeat
+  .productOffbottom
+      .free 
+        position relative
+        &:before
+            content ''
+            display block
+            width 100%
+            height 100%
+            top 0
+            right 10px
+            background rgba(255,255,255,.6)
+            z-index 1
+            position absolute
+      .addTo
+          color #b3b3b3
+          border-color #f1f1f1
+      .buyNow
+          color #b3b3b3
+          background #e6e6e6

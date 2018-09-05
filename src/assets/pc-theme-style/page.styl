@@ -1,0 +1,56 @@
+.pagination
+  display inline-block
+  font-size 0
+  ul
+    display inline-block
+    margin 0
+    padding 0
+    li
+      height 34px
+      float left
+      border 1px solid #e5e5e5
+      margin-right 6px
+      text-align center
+      line-height 34px
+      cursor pointer
+      font-size 14px
+      list-style none
+      .pagepre
+        width 33px
+        background url("~statics/images/common/img_left.png") no-repeat center
+      .pagepnext
+        width 33px
+        background url("~statics/images/common/img_right.png") no-repeat center
+      &:last-child
+        margin-right 0
+      &.active
+        border 1px solid #fff
+        a
+          color theme-color
+      a
+        display block
+        padding 0 14px
+        color #333333
+        height 33px
+
+  .goto
+    display inline-block
+    text-align center
+    font-size 14px
+    vertical-align top
+    input
+      width 45px
+      height 34px
+      border 1px solid #e5e5e5
+      margin 0 3px 0 6px
+      padding-left 0
+      text-align center
+    .go
+      width 34px
+      height 34px
+      border-radius 2px
+      line-height 34px
+      background #e6e6e6
+      display inline-block
+      vertical-align top
+      cursor pointer

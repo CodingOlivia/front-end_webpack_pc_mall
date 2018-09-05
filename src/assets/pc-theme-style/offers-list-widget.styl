@@ -1,0 +1,240 @@
+.banner-panel-iwinad
+  width 400px !important
+.panel-main-iwinad
+  .banner
+    padding 1rem!important
+    .banner-warp
+      height 160px
+      margin 0 -1rem
+      position relative
+      overflow hidden
+      .banner-box
+        position absolute
+        height 160px
+        transition: all 0.5s;
+      .banner-lay
+        float left
+        width 398px
+        height 160px
+      .pre
+        position absolute
+        left 1rem
+        top 50%
+        width 19px
+        height 43px
+        transform: translateY(-50%)
+        background url("~statics/images/contentCarousel/b_03.png") no-repeat center
+        cursor pointer
+        z-index 10
+      .next
+        position absolute
+        right 1rem
+        top 50%
+        width 19px
+        height 43px
+        transform: translateY(-50%)
+        background url("~statics/images/contentCarousel/b_02.png") no-repeat center
+        cursor pointer
+        z-index 10
+      .banner-footer
+        height 50px
+        position absolute
+        bottom -1px
+        width 100%
+        left 0
+        background rgba(255,255,255,0.7)
+        padding 0 1rem
+        font-size 12px
+        .number
+          display inline-block
+          margin-top 22px
+          color #333333
+          width 40px
+        .btn-red
+          display none
+          width 120px
+          height 30px
+          background #038cd6
+          text-align center
+          position relative
+          top -4px
+          line-height 30px
+          color #fff
+          border-radius 2px
+          margin-left 5.5rem
+          cursor pointer
+          &.selected
+            display inline-block
+        .right
+          display inline-block
+          margin-top 18px
+          margin-left 2.4rem
+          .upload
+            width 16px
+            height 16px
+            display inline-block
+            background url("~statics/images/contentCarousel/b_04.png") no-repeat center
+            margin-right 1.2rem
+            cursor pointer
+          .batch
+            width 16px
+            height 16px
+            display inline-block
+            background url("~statics/images/contentCarousel/b_05_hover.png") no-repeat center
+            margin-right 1.2rem
+            cursor pointer
+            &:hover
+              background url("~statics/images/contentCarousel/b_05.png") no-repeat center
+          .delete
+            width 16px
+            height 16px
+            display inline-block
+            background url("~statics/images/contentCarousel/b_22.png") no-repeat center
+            cursor pointer
+  .nav-item
+    border-bottom 1px solid #cccccc
+    .nav-item-head
+      height 50px
+      line-height 50px
+      font-size 17px
+      color #333333
+      .icon
+        display inline-block
+        width 16px
+        height 16px
+        margin-right 8px
+        position relative
+        top -1px
+        vertical-align middle
+        background url("~statics/images/contentCarousel/b_06.png") no-repeat center
+        &.select
+          background url("~statics/images/contentCarousel/b_07.png") no-repeat center
+      .reset
+        float right
+        font-size 12px
+        color #00a4fc
+    .nav-list
+      border-top 1px solid #cccccc
+      .setting
+        height 40px
+        background #f0f0f0
+        line-height 40px
+        font-size 12px
+        padding 0 8px
+        margin-top 16px
+        .same
+          color #333333
+        .s-btn
+          color #fff
+          display inline-block
+          width 100px
+          height 24px
+          background #038cd6
+          text-align center
+          float right
+          margin-top 8px
+          line-height 24px
+          cursor pointer
+      .tit
+        font-size 16px
+        margin 12px 0
+        .switch
+          float right
+          width 45px
+          height 18px
+      .direction
+        overflow hidden
+        .direction-list
+          width 48.5%
+          float left
+          padding 8px
+          border 1px solid #f0f0f0
+          background #f0f0f0
+          margin-right 3%
+          box-sizing border-box
+          font-size 14px
+          text-align center
+          position relative
+          cursor pointer
+          &.seleced
+            border 1px solid #038cd6
+            .icon-red
+              display inline-block
+              position absolute
+              width 22px
+              height 22px
+              bottom 0
+              right 0
+              background url("~statics/images/contentCarousel/b_10.png") no-repeat center
+              background-size 100% 100%
+          &:nth-of-type(2n)
+            margin-right 0
+          div
+            margin 8px auto 4px
+        &.mrk
+          margin-bottom 16px
+          .direction-list
+            margin-bottom 8px
+        &.dir
+          margin-bottom 16px
+          .direction-list
+            width 31.3%
+            margin-bottom 8px
+            &:nth-of-type(2n)
+              margin-right 3%
+            &:nth-of-type(3)
+              margin-right 0 
+      .toggle
+        overflow hidden
+        .toggle-list
+          width 22.7%
+          float left
+          padding 8px
+          border 1px solid #f0f0f0
+          background #f0f0f0
+          margin-right 3%
+          box-sizing border-box
+          font-size 12px
+          text-align center
+          position relative
+          cursor pointer
+          .imgbox
+            width 55px
+            height 40px
+            display inline-block
+          &.seleced
+            border 1px solid #038cd6
+            .icon-red
+              display inline-block
+              position absolute
+              width 22px
+              height 22px
+              bottom 0
+              right 0
+              background url("~statics/images/contentCarousel/b_10.png") no-repeat center
+              background-size 100% 100%
+          &:nth-of-type(4n)
+            margin-right 0
+          div
+            margin 8px auto 4px
+  .drp
+    border-top none !important
+    .q-checkbox
+      margin-top 0.87rem !important
+    .result
+      margin-right 0
+      position initial !important
+      margin-left 1rem
+    .mark
+      margin-top 1rem!important
+  .img-title
+    font-size 12px
+    color #666666
+  .input-number
+    font-size 12px
+    color #666666
+    width 55px
+    height 20px
+    border 1px solid #cccccc
+    margin-right .5rem
+    padding-left 10px

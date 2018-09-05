@@ -1,0 +1,53 @@
+{
+	"data":{
+		"select": 0,
+		"total": 10,
+		"items":[
+			{
+				"id": 0,
+				"name": "Plwats Please E-book",
+				"image": "statics/images/Homepage/new4.png",
+				"src": "?hot=1",
+				"price": "12",
+				"type": "E-book",
+				"Date": "2018-03-10"
+			},
+			{
+				"id": 1,
+				"name": "HUAWEI Mate 10",
+				"image": "statics/images/Homepage/new1.png",
+				"src": "?hot=2",
+				"price": "1029",
+				"type": "Phone",
+				"Date": "2018-03-11"
+			},
+			{
+				"id": 2,
+				"name": "Plwats Please E-book",
+				"image": "statics/images/Homepage/new2.png",
+				"src": "?hot=3",
+				"price": "12",
+				"type": "E-book",
+				"Date": "2018-03-12"
+			},
+			{
+				"id": 3,
+				"name": "HUAWEI Watch 2 Pro",
+				"image": "statics/images/Homepage/new3.png",
+				"src": "?hot=4",
+				"price": "400",
+				"type": "Accessories",
+				"Date": "2018-03-13"
+			},
+			{
+				"id": 4,
+				"name": "Beo Play M5",
+				"image": "statics/images/Homepage/new4.png",
+				"src": "?hot=5",
+				"price": "709",
+				"type": "Accessories",
+				"Date": "2018-03-14"
+			}
+		]
+	}
+}

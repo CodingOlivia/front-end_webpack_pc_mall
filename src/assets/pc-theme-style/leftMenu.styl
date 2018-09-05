@@ -1,0 +1,61 @@
+ul
+    padding 0
+    margin 0
+    li
+        list-style none
+.v-tree
+    padding-top 16px
+    .v-tree-item
+        font-size 14px
+        position relative
+        cursor pointer
+    .item-wrap
+        display flex
+        line-height 2
+        padding-top 8px
+        padding-bottom 8px
+        &:hover
+            .p-text
+                color $all-color-1
+        .p-text
+            color $all-color-3
+            white-space nowrap
+            overflow hidden
+            text-overflow ellipsis
+            font-weight 600
+            letter-spacing 0
+            margin-left calc(64 / 1920 * 100vw)
+        .narrow-icon
+            display inline-block
+            width 10px
+            height 10px
+            position absolute
+            right 16px
+            top 25px
+        .item_icon_down
+            background url("~statics/360-view-design/arrow-down.png") no-repeat center center
+        .item-r-icon
+            background url("~statics/360-view-design/arrow-up.png") no-repeat center center
+    .child-tree
+        .child-tree-item
+            font-size 14px
+            cursor pointer
+            &:hover
+                .child-text
+                    color $all-color-1
+        .child-item-wrap
+                display flex
+                line-height 2
+                padding-top 8px
+                padding-bottom 8px
+            .child-text
+                margin-left 40px
+                white-space nowrap
+                color $all-color-3
+                overflow hidden
+                text-overflow ellipsis
+                font-weight 600
+                letter-spacing 0
+                margin-left calc(100 / 1920 * 100vw)
+    .active
+        color $all-color-1!important

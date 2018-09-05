@@ -1,0 +1,191 @@
+{
+	"data":{
+		"select": 0,
+		"total": 10,
+		"items":[
+			{
+				"id": 0,
+				"name": "HUAWEI Mate 10",
+				"image": "statics/images/Homepage/featured1.png",
+				"src": "?hot=1",
+				"price": "1029",
+				"type": "Phone",
+				"byStages": true,
+				"setMeals": [
+					{
+						"id": 1000000,"name": "HUAWEI VR",
+						"image": "statics/images/Homepage/featured1.png",
+						"price": "440",
+						"monthly":"3",
+						"attr": {
+							"Voice": "300 min",
+							"SMS": "unlimited",
+							"Data": "20 GB"
+						}
+					},
+					{
+						"id": 1000001,
+						"name": "HUAWEI VR",
+						"image": "statics/images/Homepage/featured1.png",
+						"price": "230",
+						"monthly":"6",
+						"attr": {
+							"Voice": "300 min",
+							"SMS": "unlimited",
+							"Data": "20 GB"
+						}
+					},
+					{
+						"id": 1000002,
+						"name": "HUAWEI VR",
+						"image": "statics/images/Homepage/featured1.png",
+						"price": "115",
+						"monthly":"12",
+						"attr": {
+							"Voice": "300 min",
+							"SMS": "unlimited",
+							"Data": "20 GB"
+						}
+					}
+				],
+				"attr": {
+					"Memory": "256GB",
+					"Primary": "198 Bundle",
+					"Color": "Space gray"
+				},
+				"describe": "The evidence is supplied with the reliability design for the new products through fuzzy synthetic appraisal example.Here is the sample user commentr."
+			},
+			{
+				"id": 1,
+				"name": "Live in Color",
+				"image": "statics/images/Homepage/featured2.png",
+				"src": "?hot=2",
+				"price": "1029",
+				"type": "Plans",
+				"byStages": true,
+				"setMeals": [
+					{"id": 1010000,"name": "HUAWEI VR","image": "statics/images/Homepage/featured1.png","price": "440","monthly":"3"},
+					{"id": 1010001,"name": "HUAWEI VR","image": "statics/images/Homepage/featured1.png","price": "230","monthly":"6"},
+					{"id": 1010002,"name": "HUAWEI VR","image": "statics/images/Homepage/featured1.png","price": "115","monthly":"12"}
+				],
+				"describe": "The Beats Neighborhood Collection appeared inspired by the cities where they dream for the creator of today and tomorrow, for everyone who continues to challenge"
+			},
+			{
+				"id": 2,
+				"name": "iPhone 8 + 198 Bundle",
+				"image": "statics/images/Homepage/featured3.png",
+				"src": "?hot=3",
+				"price": "1029",
+				"type": "Contract Phone",
+				"byStages": false,
+				"setMeals": [],
+				"attr": {
+					"Upfront": "12.00"
+				},
+				"describe": "The evidence is supplied with the reliability design for the new products through fuzzy synthetic appraisal example.Here is the sample user commentr."
+			},
+			{
+				"id": 3,
+				"name": "Huawei Watch 2 Pro",
+				"image": "statics/images/Homepage/featured1.png",
+				"src": "?hot=4",
+				"price": "1299",
+				"type": "Accessories",
+				"setMeals": [
+					{
+						"id": 1030000,"name": "HUAWEI VR",
+						"image": "statics/images/Homepage/featured1.png",
+						"price": "440",
+						"monthly":"3",
+						"attr": {
+							"Voice": "300 min",
+							"SMS": "unlimited",
+							"Data": "20 GB"
+						}
+					},
+					{
+						"id": 1030001,
+						"name": "HUAWEI VR",
+						"image": "statics/images/Homepage/featured1.png",
+						"price": "230",
+						"monthly":"6",
+						"attr": {
+							"Voice": "300 min",
+							"SMS": "unlimited",
+							"Data": "20 GB"
+						}
+					},
+					{
+						"id": 1030002,
+						"name": "HUAWEI VR",
+						"image": "statics/images/Homepage/featured1.png",
+						"price": "115",
+						"monthly":"12",
+						"attr": {
+							"Voice": "300 min",
+							"SMS": "unlimited",
+							"Data": "20 GB"
+						}
+					}
+				],
+				"attr": {
+					"Memory": "256GB",
+					"Primary": "198 Bundle",
+					"Color": "Space gray"
+				},
+				"describe": "ETVR Upgraded 3D VR Glasses for Movies and Games with Stereo Headphone - More Lightweight Virtual Reality Headset with 120 Degree FOV"
+			},
+			{
+				"id": 4,
+				"name": "HUAWEI VR",
+				"image": "statics/images/Homepage/featured2.png",
+				"src": "?hot=5",
+				"price": "1299",
+				"type": "Accessories",
+				"setMeals": [
+					{
+						"id": 1040000,"name": "HUAWEI VR",
+						"image": "statics/images/Homepage/featured1.png",
+						"price": "440",
+						"monthly":"3",
+						"attr": {
+							"Voice": "300 min",
+							"SMS": "unlimited",
+							"Data": "20 GB"
+						}
+					},
+					{
+						"id": 1040001,
+						"name": "HUAWEI VR",
+						"image": "statics/images/Homepage/featured1.png",
+						"price": "230",
+						"monthly":"6",
+						"attr": {
+							"Voice": "300 min",
+							"SMS": "unlimited",
+							"Data": "20 GB"
+						}
+					},
+					{
+						"id": 1040002,
+						"name": "HUAWEI VR",
+						"image": "statics/images/Homepage/featured1.png",
+						"price": "115",
+						"monthly":"12",
+						"attr": {
+							"Voice": "300 min",
+							"SMS": "unlimited",
+							"Data": "20 GB"
+						}
+					}
+				],
+				"attr": {
+					"Memory": "256GB",
+					"Primary": "198 Bundle",
+					"Color": "Space gray"
+				},
+				"describe": "ETVR Upgraded 3D VR Glasses for Movies and Games with Stereo Headphone - More Lightweight Virtual Reality Headset with 120 Degree FOV"
+			}
+		]
+	}
+}

@@ -1,0 +1,39 @@
+.ytx-pagination
+  display flex
+  align-items center
+  font-size 16px
+  .round-btn
+    height 40px
+    width 40px
+    border-radius 50% 
+    outline none
+    border none
+    &.disable
+      opacity 0.4
+  .btn-pre
+    background url('~statics/last.png') center center no-repeat
+    background-color #252525
+    margin-right 84px
+    cursor pointer
+  .btn-next
+    background url('~statics/next.png') center center no-repeat
+    background-color #252525
+    margin-left 84px
+    cursor pointer
+  .pagination-box
+    display flex
+    align-items center
+    li
+      display flex
+      justify-content center
+      align-items center
+      padding 0 8px
+      color #b2b2b2
+    .ytx-input
+      input[type="text"]
+        width 30px
+        height 30px
+        border 1px solid #b2b2b2
+        border-radius 3px
+        text-align center
+        background #fff

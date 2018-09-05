@@ -1,0 +1,48 @@
+{
+	"data":{
+		"select": 0,
+		"total": 5,
+		"items":[
+			{
+				"id": 0,
+				"name": "statics/images/Homepage/pic_title1.png",
+				"image": "statics/images/Homepage/pic1.png",
+				"src": "?hot=1",
+				"price": "$1299",
+				"type": "Accessories"
+			},
+			{
+				"id": 1,
+				"name": "statics/images/Homepage/pic_title1.png",
+				"image": "statics/images/Homepage/pic2.png",
+				"src": "?hot=2",
+				"price": "$1249",
+				"type": "Accessories"
+			},
+			{
+				"id": 2,
+				"name": "statics/images/Homepage/pic_title1.png",
+				"image": "statics/images/Homepage/pic3.png",
+				"src": "?hot=3",
+				"price": "$5599",
+				"type": "Accessories"
+			},
+			{
+				"id": 3,
+				"name": "statics/images/Homepage/pic_title1.png",
+				"image": "statics/images/Homepage/pic4.png",
+				"src": "?hot=4",
+				"price": "$51299",
+				"type": "Accessories"
+			},
+			{
+				"id": 4,
+				"name": "statics/images/Homepage/pic_title1.png",
+				"image": "statics/images/Homepage/pic5.png",
+				"src": "?hot=5",
+				"price": "$5299",
+				"type": "Accessories"
+			}
+		]
+	}
+}

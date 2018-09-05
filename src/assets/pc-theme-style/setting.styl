@@ -1,0 +1,118 @@
+.setting
+    width calc( 1535/1920 * 100vw)
+    .tab   
+        .tab-item
+            float left
+            margin-right 34px
+            color $all-color-3
+            font 14px HelveticaNeue-Medium
+            margin-bottom 20px
+            cursor pointer
+            &.active
+                color $all-color-1
+    .basic-info
+        border 1px solid $border-color-1
+        padding 34px
+        .profile
+            border 1px solid $border-color-1
+            position relative
+            margin-top 80px
+            .selected-profile
+                padding 0 40px 0 24px
+                position absolute
+                left 48px
+                top -80px
+                border-radius 50%
+                background-color #fff
+                img
+                    height 129px
+                    width 129px
+                    border-radius 50%
+        .profile-all
+            padding 80px 60px 40px
+            margin-bottom -60px
+            .list-item
+                float left
+                margin-right 65px
+                margin-bottom 60px
+                cursor pointer
+                position relative
+                img
+                    height 80px
+                    width 80px
+                    border-radius 50%
+                i
+                    display block
+                    width 24px
+                    height 24px
+                    position absolute
+                    right 0
+                    bottom 4px
+                    border-radius 50%
+                    background url("~statics/images/checkout/check.png") center center no-repeat
+                    
+                &.active
+                    img
+                        border 2px solid $background-color-4
+        .input-wrapper
+            margin-top 64px
+            input[type="text"]
+                outline none
+                height 56px
+                width 432px
+                padding 0 20px
+                color $all-color-1
+                border 1px solid $border-color-1
+        .save-btn
+            margin-top 32px
+            outline none
+            border none
+            height 64px
+            width 200px
+            background-color $all-color-1
+            color #fff
+            cursor pointer
+            border-radius 32px
+            font 24px HelveticaNeue-Medium
+    .account-security
+        .outer-wrapper     
+            padding 0 20px
+            border 1px solid $border-color-1
+            &:not(:first-child)
+                margin-top 16px
+            .top
+                height 40px
+                line-height 40px
+                font 14px
+                opacity: .6
+            .content
+                padding 20px 0
+                display flex
+                justify-content space-between
+                align-items center
+                border-top 1px solid $border-color-1
+                .left
+                    display flex
+                    align-items center
+                    .img-wrap
+                        height 54px 
+                        width 54px
+                        margin-right 14px
+                        img
+                            max-width 100%
+                            max-height 100%
+                            border-radius 50%
+                .right 
+                    .operation-icon
+                        display inline-block
+                        width 16px
+                        height 16px 
+                        vertical-align middle
+                        margin-right 4px
+                        img
+                            max-width 100%
+                            max-height 100%
+                            vertical-align top
+                            margin-top -1px
+                    .operation-text
+                        display inline-block       

@@ -1,0 +1,68 @@
+{
+	"data":{
+		"select": 0,
+		"total": 10,
+		"items":[
+			{
+				"id": 0,
+				"name": "HUAWEI VR",
+				"image": "statics/search/images/hot/1.png",
+				"src": "?hot=1"
+			},
+			{
+				"id": 1,
+				"name": "Huawei Watch 2 Pro",
+				"image": "statics/search/images/hot/2.png",
+				"src": "?hot=2"
+			},
+			{
+				"id": 2,
+				"name": "HUAWEI VR",
+				"image": "statics/search/images/hot/3.png",
+				"src": "?hot=3"
+			},
+			{
+				"id": 3,
+				"name": "Huawei Watch 2 Pro",
+				"image": "statics/search/images/hot/4.png",
+				"src": "?hot=4"
+			},
+			{
+				"id": 4,
+				"name": "HUAWEI VR",
+				"image": "statics/search/images/hot/5.png",
+				"src": "?hot=5"
+			},
+			{
+				"id": 5,
+				"name": "Huawei Watch 2 Pro",
+				"image": "statics/search/images/hot/6.png",
+				"src": "?hot=6"
+			},
+			{
+				"id": 6,
+				"name": "HUAWEI VR",
+				"image": "statics/search/images/hot/7.png",
+				"src": "?hot=7"
+			},
+			{
+				"id": 7,
+				"name": "Huawei Watch 2 Pro",
+				"image": "statics/search/images/hot/8.png",
+				"src": "?hot=8"
+			},
+			{
+				"id": 8,
+				"name": "HUAWEI VR",
+				"image": "statics/search/images/hot/9.png",
+				"src": "?hot=9"
+			},
+			{
+				"id": 9,
+				"name": "Huawei Watch 2 Pro",
+				"image": "statics/search/images/hot/10.png",
+				"src": "?hot=10"
+			}
+		]
+	}
+}

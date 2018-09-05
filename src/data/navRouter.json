@@ -1,0 +1,20 @@
+{
+  "router": [
+    {
+      "name": "CONTRACT PHONE",
+      "to": "/Market/Search?search=Contract Phone&type=1"
+    },
+    {
+      "name": "PHONE",
+      "to": "/Market/Search?search=Phone&type=1"
+    },
+    {
+      "name": "ACCESSORIES",
+      "to": "/Market/Search?search=Accessories&type=1"
+    },
+    {
+      "name": "PLANS",
+      "to": "/Market/Search?search=Plans&type=1"
+    }
+  ]
+}

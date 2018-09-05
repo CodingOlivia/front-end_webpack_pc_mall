@@ -1,0 +1,580 @@
+
+/* ucd的样式s */
+@font-face
+  font-family 'HelveticaNeue-Medium'
+  src:  url('../statics/font/HelveticaNeue-Medium.eot')     
+  src:  url(../statics/font/HelveticaNeue-Medium.eot?#iefix) format('embedded-opentype'),
+        url(../statics/font/HelveticaNeue-Medium.otf) format('truetype'),
+        url(../statics/font/HelveticaNeue-Medium.woff) format('woff'),
+        url(../statics/font/HelveticaNeue-Medium.svg) format('svg')
+@font-face
+  font-family 'KhmerMN'
+  src:  url('../statics/font/KhmerMN.ttf')     
+/* 清除浮动 */
+.clearfix
+  zoom 1
+  &:after
+    content ''
+    height 0
+    line-height 0
+    display block
+    clear both
+    visibility hidden
+
+/* flex 布局 */
+.ytx-flex-center
+    display flex
+    justify-content center
+    align-items center
+.ytx-flex-1
+    flex 1
+.ytx-align-items-center
+    align-items center
+
+/*  */
+.ytx-inline-block
+    display inline-block
+.ytx-block
+    display block
+    
+/* 背景色 */
+.ytx-bg3
+    background-color $background-color-3
+.ytx-bg4
+    background-color $background-color-4!important
+.ytx-bg5
+    background-color #fff
+
+.ytx-bg6
+    background-color $all-color-1
+
+/* $background-color-3 = #f9f9f9
+$background-color-4 = #6dd6a9 */
+
+/* 字体颜色 */
+.allcolor1
+    color $all-color-1
+.allcolor2
+    color $all-color-2
+.allcolor3
+    color $all-color-3
+.fontcolor3
+    color $font-color-3
+.fontcolor4
+    color $font-color-4
+.fontcolor5
+    color $font-color-5
+.fontcolor6
+    color #ccc
+.fontcolor7
+    color #6dd6a9
+/* 
+$all-color-1 = #252525
+$all-color-2 = #fff
+$all-color-3 = #b2b2b2
+$font-color-3 = #c1c0bf
+$font-color-4 = #6abcfc
+$font-color-5 = #666 */
+
+/* 字体 */
+.fontfamilymedium 
+    font-family HelveticaNeue-Medium
+
+  
+/* 字体加粗 */
+.fontweight400
+    font-weight 400
+.fontweight600
+    font-weight 600
+.fontweightbold
+    font-weight bold
+
+/* 字符过长省略 */
+.text-ellipsis
+    overflow hidden
+    text-overflow ellipsis
+    display -webkit-box
+    /* autoprefixer:off */
+    -webkit-box-orient vertical
+    /* autoprefixer:on */
+    -webkit-line-clamp 2
+    
+/* 对齐方式 */
+.ytx-align-left
+    text-align left
+.ytx-align-right
+    text-align right
+.ytx-align-center
+    text-align center
+
+/* 边框线 */
+.ytx-border-all
+    border 1px solid $border-color-1
+.ytx-border-top
+    border-top 1px solid $border-color-1
+.ytx-border-bottom
+    border-bottom 1px solid $border-color-1
+.ytx-border-left
+    border-left 1px solid $border-color-1
+.ytx-border-right
+    border-right 1px solid $border-color-1
+.ytx-border-top-none
+    border-top none
+.ytx-border-right-none
+    border-right none
+.ytx-border-left-none
+    border-left none
+.ytx-border-bottom-none
+    border-bottom none
+
+/* 字体大小 */
+.size12
+    font-size 12px
+.size14
+    font-size 14px
+.size16
+    font-size 16px
+.size18
+    font-size 18px
+.size20
+    font-size 20px
+.size22
+    font-size 22px
+.size24
+    font-size 24px
+.size36
+    font-size 36px
+
+/* 外边距 */
+.ytx-orient-center
+    margin 0 auto
+.ytx-m-none
+    margin 0
+.ytx-s-mt
+    margin-top 8px
+.ytx-s-mb
+    margin-bottom 8px
+.ytx-s-ml
+    margin-left 8px
+.ytx-s-mr
+    margin-right 8px
+.ytx-m-s-all
+    margin 8px
+.ytx-m-s-tb
+    margin-top 8px
+    margin-bottom 8px
+.ytx-m-s-lr
+    margin-left 8px
+    margin-right 8px
+
+.ytx-mt
+    margin-top 16px
+.ytx-mb
+    margin-bottom 16px
+.ytx-ml
+    margin-left 16px
+.ytx-mr
+    margin-right 16px
+.ytx-m-all
+    margin 16px
+.ytx-m-tb
+    margin-top 16px
+    margin-bottom 16px
+.ytx-m-lr
+    margin-left 16px
+    margin-right 16px
+
+.ytx-x-mt
+    margin-top 24px
+.ytx-x-mb
+    margin-bottom 24px
+.ytx-x-ml
+    margin-left 24px
+.ytx-x-mr
+    margin-right 24px
+.ytx-m-x-all
+    margin 24px
+.ytx-m-x-tb
+    margin-top 24px
+    margin-bottom 24px
+.ytx-m-x-lr
+    margin-left 24px
+    margin-right 24px
+
+.ytx-xx-mt
+    margin-top 32px
+.ytx-xx-mb
+    margin-bottom 32px
+.ytx-xx-ml
+    margin-left 32px
+.ytx-xx-mr
+    margin-right 32px
+.ytx-m-xx-all
+    margin 32px
+.ytx-m-xx-tb
+    margin-top 32px
+    margin-bottom 32px
+.ytx-m-xx-lr
+    margin-left 32px
+    margin-right 32px
+
+.ytx-xxx-mt
+    margin-top 40px
+.ytx-xxx-mb
+    margin-bottom 40px
+.ytx-xxx-ml
+    margin-left 40px
+.ytx-xxx-mr
+    margin-right 40px
+.ytx-m-xxx-all
+    margin 40px
+.ytx-m-xxx-tb
+    margin-top 40px
+    margin-bottom 40px
+.ytx-m-xxx-lr
+    margin-left 40px
+    margin-right 40px
+
+.ytx-xxxx-mt
+    margin-top 48px
+.ytx-xxxx-mb
+    margin-bottom 48px
+.ytx-xxxx-ml
+    margin-left 48px
+.ytx-xxxx-mr
+    margin-right 48px
+.ytx-m-xxxx-ALL
+    margin 48px
+.ytx-m-xxxx-tb
+    margin-top 48px
+    margin-bottom 48px
+.ytx-m-xxxx-lr
+    margin-left 48px
+    margin-right 48px
+
+
+
+/* 内边距 */
+.ytx-p-none
+    padding 0
+.ytx-s-pt
+    padding-top 8px
+.ytx-s-pb
+    padding-bottom 8px
+.ytx-s-pl
+    padding-left 8px
+.ytx-s-pr
+    padding-right 8px
+.ytx-p-s-all
+    padding 8px
+.ytx-p-s-tb
+    padding-top 8px
+    padding-bottom 8px
+.ytx-p-s-lr
+    padding-left 8px
+    padding-right 8px
+
+.ytx-pt
+    padding-top 16px
+.ytx-pb
+    padding-bottom 16px
+.ytx-pl
+    padding-left 16px
+.ytx-pr
+    padding-right 16px
+.ytx-p-all
+    padding 16px
+.ytx-p-tb
+    padding-top 16px
+    padding-bottom 16px
+.ytx-p-lr
+    padding-left 16px
+    padding-right 16px
+
+.ytx-x-pt
+    padding-top 24px
+.ytx-x-pb
+    padding-bottom 24px
+.ytx-x-pl
+    padding-left 24px
+.ytx-x-pr
+    padding-right 24px
+.ytx-p-x-all
+    padding 24px
+.ytx-p-x-tb
+    padding-top 24px
+    padding-bottom 24px
+.ytx-p-x-lr
+    padding-left 24px
+    padding-right 24px
+
+.ytx-xx-pt
+    padding-top 32px
+.ytx-xx-pb
+    padding-bottom 32px
+.ytx-xx-pl
+    padding-left 32px
+.ytx-xx-pr
+    padding-right 32px
+.ytx-p-xx-all
+    padding 32px
+.ytx-p-xx-tb
+    padding-top 32px
+    padding-bottom 32px
+.ytx-p-xx-lr
+    padding-left 32px
+    padding-right 32px
+
+.ytx-xxx-pt
+    padding-top 40px
+.ytx-xxx-pb
+    padding-bottom 40px
+.ytx-xxx-pl
+    padding-left 40px
+.ytx-xxx-pr
+    padding-right 40px
+.ytx-p-xxx-all
+    padding 40px
+.ytx-p-xxx-tb
+    padding-top 40px
+    padding-bottom 40px
+.ytx-p-xxx-lr
+    padding-left 40px
+    padding-right 40px
+
+.ytx-xxxx-pt
+    padding-top 48px
+.ytx-xxxx-pb
+    padding-bottom 48px
+.ytx-xxxx-pl
+    padding-left 48px
+.ytx-xxxx-pr
+    padding-right 48px
+.ytx-p-xxxx-ALL
+    padding 48px
+.ytx-p-xxxx-tb
+    padding-top 48px
+    padding-bottom 48px
+.ytx-p-xxxx-lr
+    padding-left 48px
+    padding-right 48px
+
+/* 宽度设置 */
+.ytx-div-width80
+    width 80%
+.ytx-div-width70
+    width 70%
+.ytx-div-width60
+    width 60%
+
+    
+.ytx-p-truncate
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap!important
+
+
+/* 小按钮-背景色白色 */
+.ytx-small-w-btn
+    padding 0 25px
+    height 32px
+    display flex
+    justify-content center
+    align-items center
+    box-sizing border-box
+    font bold 14px HelveticaNeue;
+    border-radius 16px
+    margin-left 16px
+    cursor pointer
+    background-color $all-color-2
+    border 1px solid $border-color-1
+    color $all-color-1
+    text-transform uppercase
+    outline none
+
+/* 小按钮-背景色黑色 */
+.ytx-small-b-btn
+    padding 0 25px
+    height 32px
+    display flex
+    justify-content center
+    align-items center
+    box-sizing border-box
+    font bold 14px HelveticaNeue;
+    border-radius 16px
+    margin-left 16px
+    cursor pointer
+    background-color $all-color-1
+    color $all-color-2
+    text-transform uppercase
+    border 1px solid $all-color-1
+    outline none
+
+
+.ytx-small-btn
+    padding 0 25px
+    height 32px
+    display flex
+    justify-content center
+    align-items center
+    box-sizing border-box
+    font bold 14px HelveticaNeue;
+    border-radius 16px
+    margin-left 16px
+    cursor pointer
+    text-transform uppercase
+    outline none
+    border 0
+
+
+
+/* 发送验证码 */
+.ytx-verificationBox
+    height: 56px
+    font-size: 14px
+    width 100%
+    display flex
+    margin-top 16px
+    input
+        font-size: 14px
+        line-height: 32px
+        padding: 12px 16px
+        color: #666
+        outline none
+        border: 1px solid $border-color-1
+        height: 100%
+        flex 1
+    .sendVerification
+        font-weight: bold
+        height: 100%
+        width: 108px
+        text-align: center
+        line-height: 56px
+        outline none
+        border: 1px solid $border-color-1
+        border-left: none
+        background-color: #fff
+        height: 100%
+        float: right
+        cursor: pointer
+//弹框样式修改
+@media screen and (min-width 1280px)
+  .minimized
+    .modal-content
+      width 500px
+      box-shadow none
+      max-height 800px
+      .modal-header
+        padding 16px 30px
+        border-bottom 1px solid #f0f0f0
+        color #040000
+        font-family font-m
+      .modal-body
+        padding 26px 30px 27px 30px
+        color #333
+        font-family font-r
+        line-height 24px
+        white-space normal
+        word-break break-word
+      .modal-buttons
+        padding 0 30px 30px 30px
+        .q-btn
+          height 24px
+          line-height 24px
+          min-height 24px
+          min-width 80px
+          font-size 12px
+          box-shadow none
+          text-transform capitalize
+          &:hover
+            .q-focus-helper
+              opacity 0
+        .bg-primary
+          background  #1976d2!important
+        .q-btn-outline
+          background  #fff!important
+          .q-focus-helper
+            background  #fff!important
+  //提示框信息
+  .q-toast-container
+    position fixed
+    left 50%
+    bottom 50%
+    right auto
+    transform translate(-50%, 50%)!important
+    border-radius 8px
+    font-size 14px
+    font-family font-r
+    background #040000!important
+    .q-toast
+      background #040000!important
+      opacity 50%
+      width 500px
+      min-height 40px
+      margin 0
+      box-shadow none
+      i
+        display none
+      a
+        display none
+@media screen and (min-width:320px) and (max-width:639px)
+  .minimized
+    .modal-content
+      width 230px
+      box-shadow none
+      .modal-header
+        display none
+      .modal-body
+        padding 26px 20px 20px 20px
+        color #333
+        font-size 12px
+        font-family font-r
+        line-height 24px
+        white-space normal
+        word-break break-word
+      .modal-buttons
+        display flex
+        padding 0
+        border none
+        border-top 1px solid #e5e5e5
+        .q-btn
+          height 40px
+          line-height 40px
+          font-size 16px
+          box-shadow none
+          flex 1
+          background  #fff!important
+          margin-left 0
+          text-transform none
+          &:hover
+            .q-focus-helper
+              opacity 0
+        .q-btn-outline
+          border none
+          //color #333 !important
+          background  #fff!important
+          .q-focus-helper
+            background  #fff!important
+        .bg-primary
+          color #fff!important
+          border-right 1px solid #e5e5e5
+          background #1976d2 !important
+  //提示框信息
+  .q-toast-container
+    width 230px
+    min-height 40px
+    position fixed
+    left 50%
+    bottom 50%
+    transform translate(-50%, 50%)!important
+    background #040000!important
+    opacity 50%
+    border-radius 8px
+    font-size 14px
+    font-family font-r
+    .q-toast
+      i
+        display none
+      a
+        display none
+
